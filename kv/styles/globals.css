@@ -1,3 +1,10 @@
+:root {
+  --green: #00c565;
+  --greenBorder: #21fa90;
+  --red: #BF0603;
+  --redBorder: #F10804;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
