@@ -13,7 +13,12 @@ export default function Question() {
   const [turn, setTurn] = useState(0);
   const [revealed, setRevealed] = useState(Array(10).fill(false));
   const [scoreAdded, setScoreAdded] = useState(10);
-  console.log(question);
+  const [guessedCorrectAnswers, setGuessedCorrectAnswers] = useState(0);
+  const [guessWrongAnswers, setGuessWrongAnswers] = useState(0);
+
+  if (!router.isReady || !question) {
+    return <p>Loading...</p>;
+  }
 
   const questionData = Questions.questions.find((q) => q.question === question);
 
@@ -21,24 +26,60 @@ export default function Question() {
     return <p>Question not found</p>;
   }
 
+  let correctAnswersNumber = questionData.answers.filter(
+    (answer) => answer.correct === true
+  ).length;
+  let incorrectAnswersNumber = questionData.answers.filter(
+    (answer) => answer.correct === false
+  ).length;
+
   function showAnswer(answer, index) {
     console.log(answer.correct);
     const updatedRevealed = [...revealed];
     updatedRevealed[index] = true;
     setRevealed(revealed.map((item, i) => (i === index ? true : item)));
+
     if (answer.correct) {
+      setGuessedCorrectAnswers((prev) => prev + 1);
+      checkRemainingAnswers("correct");
       if (turn === 1) {
         setScore1(score1 + scoreAdded);
       } else {
         setScore2(score2 + scoreAdded);
       }
     } else {
+      setGuessWrongAnswers((prev) => prev + 1);
+      checkRemainingAnswers("incorrect");
       if (turn === 1) {
         setScore1(0);
+        setTurn(2);
       } else {
         setScore2(0);
+        setTurn(1);
       }
     }
+  }
+
+  function checkRemainingAnswers(type) {
+    let remainingScore = (correctAnswersNumber - guessedCorrectAnswers) * scoreAdded;
+    if (type === "correct") {
+      if (guessedCorrectAnswers + 1 === correctAnswersNumber) {
+        revealAllAnswers();
+      }
+    } else {
+      if (guessWrongAnswers + 1 === incorrectAnswersNumber) {
+        revealAllAnswers();
+        if (turn === 1) {
+          setScore2(score2 + remainingScore);
+        } else {
+          setScore1(score1 + remainingScore);
+        }
+      }
+    }
+  }
+
+  function revealAllAnswers() {
+    setRevealed(Array(10).fill(true));
   }
 
   return (
