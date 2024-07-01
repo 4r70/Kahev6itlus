@@ -2,6 +2,8 @@ import styles from "@/styles/Question.module.css";
 import Questions from "../public/questions.json";
 import { useRouter } from "next/router";
 import { useState, useEffect } from "react";
+import Back from "@/components/icons/back.js";
+import Reset from "@/components/icons/reset.js";
 
 export default function Question() {
   const router = useRouter();
@@ -61,7 +63,8 @@ export default function Question() {
   }
 
   function checkRemainingAnswers(type) {
-    let remainingScore = (correctAnswersNumber - guessedCorrectAnswers) * scoreAdded;
+    let remainingScore =
+      (correctAnswersNumber - guessedCorrectAnswers) * scoreAdded;
     if (type === "correct") {
       if (guessedCorrectAnswers + 1 === correctAnswersNumber) {
         revealAllAnswers();
@@ -82,6 +85,17 @@ export default function Question() {
     setRevealed(Array(10).fill(true));
   }
 
+  function resetAll() {
+    setRevealed(Array(10).fill(false));
+    setGuessedCorrectAnswers(0);
+    setGuessWrongAnswers(0);
+    setScore1(0);
+    setScore2(0);
+    setTurn(0);
+    setPlayer1("");
+    setPlayer2("");
+  }
+
   return (
     <div className={styles.main}>
       <div className={styles.darken}></div>
@@ -90,13 +104,22 @@ export default function Question() {
         <input
           className={styles.playerName}
           placeholder="Sisesta nimi..."
-          onChange={(value) => setPlayer1(value)}
+          value={player1}
+          onChange={(e) => setPlayer1(e.target.value)}
         />
         <input className={styles.mainScore} type="number" value={score1} />
         <p className={styles.mainScoreTitle}>Üldskoor</p>
       </div>
       <div className={styles.centerColumn}>
-        <h1>{questionData.question}</h1>
+        <div className={styles.topRow}>
+          <button onClick={() => router.back()} className={styles.backButton}>
+            <Back className={styles.backIcon} width={40} height={40} />
+          </button>
+          <h1>{questionData.question}</h1>
+          <button onClick={() => resetAll()} className={styles.resetButton}>
+            <Reset className={styles.resetIcon} width={40} height={40} />
+          </button>
+        </div>
         {questionData.answers.map((answer, index) => (
           <div key={answer.answer} className={styles.answer}>
             <button
@@ -121,7 +144,8 @@ export default function Question() {
         <input
           className={styles.playerName}
           placeholder="Sisesta nimi..."
-          onChange={(value) => setPlayer2(value)}
+          value={player2}
+          onChange={(e) => setPlayer2(e.target.value)}
         />
         <input className={styles.mainScore} type="number" value={score2} />
         <p className={styles.mainScoreTitle}>Üldskoor</p>

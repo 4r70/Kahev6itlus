@@ -84,8 +84,20 @@
   font-size: clamp(2rem, 1.7rem + 1.5vw, 3.5rem);
   font-weight: 800;
   text-align: center;
+  z-index: 5;
+}
+
+.topRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   margin-bottom: 2rem;
   z-index: 5;
+}
+
+.backButton, .resetButton {
+  all: unset;
+  cursor: pointer;
 }
 
 .option {
