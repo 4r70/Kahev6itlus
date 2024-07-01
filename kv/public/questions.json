@@ -1,33 +1,663 @@
 {
     "questions": [
         {
-            "question": "Question 1",
+            "question": "Bondi filmide eestikeelsed pealkirjad",
             "answers": [
-                {"answer": "Answer 1", "correct": true},
-                {"answer": "Answer 2", "correct": true},
-                {"answer": "Answer 3", "correct": true},
-                {"answer": "Answer 4", "correct": false},
-                {"answer": "Answer 5", "correct": false},
-                {"answer": "Answer 6", "correct": false},
-                {"answer": "Answer 7", "correct": false},
-                {"answer": "Answer 8", "correct": false},
-                {"answer": "Answer 9", "correct": false},
-                {"answer": "Answer 10", "correct": false}
+                {
+                    "answer": "Mees kuldse relvaga",
+                    "correct": true,
+                    "comment": "The man with the golden gun (Roger Moore)"
+                },
+                {
+                    "answer": "Taassünd",
+                    "correct": false,
+                    "comment": "Johnny English Reborn"
+                },
+                {
+                    "answer": "Surma palge ees",
+                    "correct": true,
+                    "comment": "A view to kill (Roger Moore)"
+                },
+                {
+                    "answer": "Dr. No",
+                    "correct": true,
+                    "comment": "Esimene bondifilm (Brosnan)"
+                },
+                {
+                    "answer": "Elad vaid korra",
+                    "correct": false,
+                    "comment": "Mitte segamini ajada elad vaid kaks korda / You only live twice"
+                },
+                {
+                    "answer": "Luba tappa",
+                    "correct": true,
+                    "comment": "A license to kill (Dalton)"
+                },
+                {
+                    "answer": "Kuldne tüdruk",
+                    "correct": false,
+                    "comment": "Goldfinger/GoldenEye"
+                },
+                {
+                    "answer": "Surm peab ootama",
+                    "correct": true,
+                    "comment": "No time to die"
+                },
+                {
+                    "answer": "Ohutstoonis",
+                    "correct": true,
+                    "comment": "The living Daylights (Dalton)"
+                },
+                {
+                    "answer": "Casino Royale",
+                    "correct": true,
+                    "comment": "Daniel Craigi esimene"
+                }
             ]
         },
         {
-            "question": "Question 2",
+            "question": "BMW mudelid",
             "answers": [
-                {"answer": "Answer 1", "correct": true},
-                {"answer": "Answer 2", "correct": true},
-                {"answer": "Answer 3", "correct": true},
-                {"answer": "Answer 4", "correct": false},
-                {"answer": "Answer 5", "correct": false},
-                {"answer": "Answer 6", "correct": false},
-                {"answer": "Answer 7", "correct": false},
-                {"answer": "Answer 8", "correct": false},
-                {"answer": "Answer 9", "correct": false},
-                {"answer": "Answer 10", "correct": false}
+                {
+                    "answer": "X5",
+                    "correct": true,
+                    "comment": ""
+                },
+                {
+                    "answer": "G63",
+                    "correct": false,
+                    "comment": "Mercedes"
+                },
+                {
+                    "answer": "i8",
+                    "correct": true,
+                    "comment": ""
+                },
+                {
+                    "answer": "E24",
+                    "correct": true,
+                    "comment": "6. seeria"
+                },
+                {
+                    "answer": "Q5",
+                    "correct": false,
+                    "comment": "Audi"
+                },
+                {
+                    "answer": "A7",
+                    "correct": false,
+                    "comment": "Audi A7"
+                },
+                {
+                    "answer": "X1",
+                    "correct": true,
+                    "comment": ""
+                },
+                {
+                    "answer": "E34",
+                    "correct": true,
+                    "comment": "5. seeria"
+                },
+                {
+                    "answer": "Z4",
+                    "correct": true,
+                    "comment": ""
+                },
+                {
+                    "answer": "M3",
+                    "correct": true,
+                    "comment": ""
+                }
+            ]
+        },
+        {
+            "question": "Kroonika seksikaimad mehed",
+            "answers": [
+                {
+                    "answer": "Ott Tänak",
+                    "correct": false,
+                    "comment": ""
+                },
+                {
+                    "answer": "Kristjan Kasearu",
+                    "correct": true,
+                    "comment": "2008"
+                },
+                {
+                    "answer": "Koit Toome",
+                    "correct": true,
+                    "comment": "2004"
+                },
+                {
+                    "answer": "Robert Rool",
+                    "correct": false,
+                    "comment": ""
+                },
+                {
+                    "answer": "Jürgen Veber",
+                    "correct": true,
+                    "comment": "2007"
+                },
+                {
+                    "answer": "Tanel Padar",
+                    "correct": true,
+                    "comment": "2001"
+                },
+                {
+                    "answer": "Erki Nool",
+                    "correct": true,
+                    "comment": "1997"
+                },
+                {
+                    "answer": "Karl Erik Taukar",
+                    "correct": true,
+                    "comment": "2019"
+                },
+                {
+                    "answer": "Franz Malmsten",
+                    "correct": true,
+                    "comment": "2022"
+                },
+                {
+                    "answer": "Peeter Oja",
+                    "correct": false,
+                    "comment": ":("
+                }
+            ]
+        },
+        {
+            "question": "Kandva tähtsusega rollid Breaking Badis",
+            "answers": [
+                {
+                    "answer": "Kenny",
+                    "correct": true,
+                    "comment": "Jack Welkeri gangis"
+                },
+                {
+                    "answer": "Ted",
+                    "correct": true,
+                    "comment": ""
+                },
+                {
+                    "answer": "Brian",
+                    "correct": false,
+                    "comment": ""
+                },
+                {
+                    "answer": "Walter",
+                    "correct": true,
+                    "comment": ""
+                },
+                {
+                    "answer": "Mike",
+                    "correct": true,
+                    "comment": ""
+                },
+                {
+                    "answer": "Marie",
+                    "correct": true,
+                    "comment": ""
+                },
+                {
+                    "answer": "Chuck",
+                    "correct": true,
+                    "comment": ""
+                },
+                {
+                    "answer": "Peter",
+                    "correct": false,
+                    "comment": ""
+                },
+                {
+                    "answer": "Gustavo",
+                    "correct": true,
+                    "comment": ""
+                },
+                {
+                    "answer": "Chris",
+                    "correct": false,
+                    "comment": ""
+                }
+            ]
+        },
+        {
+            "question": "Venture Capital ettevõtted/fondid",
+            "answers": [
+                {
+                    "answer": "Stratton Oakmont",
+                    "correct": false,
+                    "comment": "Wolf of Wall Street"
+                },
+                {
+                    "answer": "karma.vc",
+                    "correct": true,
+                    "comment": ""
+                },
+                {
+                    "answer": "Tera Ventures",
+                    "correct": true,
+                    "comment": ""
+                },
+                {
+                    "answer": "Change Ventures",
+                    "correct": true,
+                    "comment": ""
+                },
+                {
+                    "answer": "Plural",
+                    "correct": true,
+                    "comment": ""
+                },
+                {
+                    "answer": "Sequoia Capital",
+                    "correct": true,
+                    "comment": ""
+                },
+                {
+                    "answer": "Bernie Madoff",
+                    "correct": false,
+                    "comment": ""
+                },
+                {
+                    "answer": "Superangel",
+                    "correct": true,
+                    "comment": ""
+                },
+                {
+                    "answer": "Lift99",
+                    "correct": false,
+                    "comment": ""
+                },
+                {
+                    "answer": "Yolo Investments",
+                    "correct": true,
+                    "comment": ""
+                }
+            ]
+        },
+        {
+            "question": "UNIXi käsud",
+            "answers": [
+                {
+                    "answer": "du",
+                    "correct": true,
+                    "comment": "disk usage"
+                },
+                {
+                    "answer": "t",
+                    "correct": false,
+                    "comment": ""
+                },
+                {
+                    "answer": "cut",
+                    "correct": true,
+                    "comment": ""
+                },
+                {
+                    "answer": "grep",
+                    "correct": true,
+                    "comment": ""
+                },
+                {
+                    "answer": "rmk",
+                    "correct": false,
+                    "comment": "riigi metsamajanduse keskus"
+                },
+                {
+                    "answer": "gcc",
+                    "correct": true,
+                    "comment": ""
+                },
+                {
+                    "answer": "find",
+                    "correct": true,
+                    "comment": ""
+                },
+                {
+                    "answer": "gawk",
+                    "correct": true,
+                    "comment": "pattern matching"
+                },
+                {
+                    "answer": "tmt",
+                    "correct": false,
+                    "comment": "nublu laul"
+                },
+                {
+                    "answer": "wc",
+                    "correct": true,
+                    "comment": ""
+                }
+            ]
+        },
+        {
+            "question": "Finantsmaailmaga seotud akronüümid",
+            "answers": [
+                {
+                    "answer": "CAGR",
+                    "correct": true,
+                    "comment": "Compound annual growth rate"
+                },
+                {
+                    "answer": "CEE",
+                    "correct": true,
+                    "comment": "Central, Eastern Europe"
+                },
+                {
+                    "answer": "YOY",
+                    "correct": true,
+                    "comment": "Year Over Year"
+                },
+                {
+                    "answer": "VIX",
+                    "correct": true,
+                    "comment": "Volatility Index"
+                },
+                {
+                    "answer": "PIGS",
+                    "correct": true,
+                    "comment": "Portugal italy greece spain"
+                },
+                {
+                    "answer": "LIBOR",
+                    "correct": true,
+                    "comment": "London Interbank Offered Rate"
+                },
+                {
+                    "answer": "EBITDA",
+                    "correct": true,
+                    "comment": "Earnings before interest, taxes, depreciation and amoritzation"
+                },
+                {
+                    "answer": "MILF",
+                    "correct": false,
+                    "comment": "Man I love frogs"
+                },
+                {
+                    "answer": "NGR",
+                    "correct": false,
+                    "comment": ""
+                },
+                {
+                    "answer": "GG",
+                    "correct": false,
+                    "comment": ""
+                }
+            ]
+        },
+        {
+            "question": "Mõisted startupinduses (otsetõlgituna)",
+            "answers": [
+                {
+                    "answer": "Ükssarvik",
+                    "correct": true,
+                    "comment": ""
+                },
+                {
+                    "answer": "Prussakas",
+                    "correct": true,
+                    "comment": ""
+                },
+                {
+                    "answer": "Inkubaator",
+                    "correct": true,
+                    "comment": ""
+                },
+                {
+                    "answer": "Hokikepp",
+                    "correct": true,
+                    "comment": ""
+                },
+                {
+                    "answer": "Lennurada",
+                    "correct": true,
+                    "comment": ""
+                },
+                {
+                    "answer": "Surmaorg",
+                    "correct": true,
+                    "comment": ""
+                },
+                {
+                    "answer": "Seemnevoor",
+                    "correct": true,
+                    "comment": ""
+                },
+                {
+                    "answer": "Siledus",
+                    "correct": false,
+                    "comment": ""
+                },
+                {
+                    "answer": "Kirbuhüpe",
+                    "correct": false,
+                    "comment": ""
+                },
+                {
+                    "answer": "Koerakirp",
+                    "correct": false,
+                    "comment": ""
+                }
+            ]
+        },
+        {
+            "question": "Tallinna klubid/baarid",
+            "answers": [
+                {
+                    "answer": "Noku",
+                    "correct": true,
+                    "comment": ""
+                },
+                {
+                    "answer": "Nimeta",
+                    "correct": true,
+                    "comment": ""
+                },
+                {
+                    "answer": "Labor",
+                    "correct": true,
+                    "comment": ""
+                },
+                {
+                    "answer": "Nudist",
+                    "correct": true,
+                    "comment": ""
+                },
+                {
+                    "answer": "Pudel",
+                    "correct": true,
+                    "comment": ""
+                },
+                {
+                    "answer": "Hell Hunt",
+                    "correct": true,
+                    "comment": ""
+                },
+                {
+                    "answer": "Hollywood",
+                    "correct": true,
+                    "comment": ""
+                },
+                {
+                    "answer": "Sunset",
+                    "correct": false,
+                    "comment": "Pärnus"
+                },
+                {
+                    "answer": "Näksi",
+                    "correct": false,
+                    "comment": "Haapsalu"
+                },
+                {
+                    "answer": "Space",
+                    "correct": false,
+                    "comment": "Tartu"
+                }
+            ]
+        },
+        {
+            "question": "Põhjala õlled",
+            "answers": [
+                {
+                    "answer": "Baltic Porter",
+                    "correct": true,
+                    "comment": ""
+                },
+                {
+                    "answer": "Värske",
+                    "correct": true,
+                    "comment": ""
+                },
+                {
+                    "answer": "Virmalised",
+                    "correct": true,
+                    "comment": ""
+                },
+                {
+                    "answer": "Öö",
+                    "correct": true,
+                    "comment": ""
+                },
+                {
+                    "answer": "Disko",
+                    "correct": true,
+                    "comment": ""
+                },
+                {
+                    "answer": "Helge",
+                    "correct": true,
+                    "comment": ""
+                },
+                {
+                    "answer": "Koit",
+                    "correct": true,
+                    "comment": ""
+                },
+                {
+                    "answer": "Viljapõld",
+                    "correct": false,
+                    "comment": ""
+                },
+                {
+                    "answer": "Hunt",
+                    "correct": false,
+                    "comment": ""
+                },
+                {
+                    "answer": "Roheline",
+                    "correct": false,
+                    "comment": ""
+                }
+            ]
+        },
+        {
+            "question": "Eestis esinenud artistid",
+            "answers": [
+                {
+                    "answer": "The Weeknd",
+                    "correct": true,
+                    "comment": ""
+                },
+                {
+                    "answer": "Rammstein",
+                    "correct": true,
+                    "comment": ""
+                },
+                {
+                    "answer": "Central Cee",
+                    "correct": true,
+                    "comment": ""
+                },
+                {
+                    "answer": "Alan Walker",
+                    "correct": true,
+                    "comment": ""
+                },
+                {
+                    "answer": "Post Malone",
+                    "correct": true,
+                    "comment": ""
+                },
+                {
+                    "answer": "David Guetta",
+                    "correct": true,
+                    "comment": ""
+                },
+                {
+                    "answer": "Rihanna",
+                    "correct": true,
+                    "comment": ""
+                },
+                {
+                    "answer": "Travis Scott",
+                    "correct": false,
+                    "comment": ""
+                },
+                {
+                    "answer": "Kanye",
+                    "correct": false,
+                    "comment": ""
+                },
+                {
+                    "answer": "Taylor Swift",
+                    "correct": false,
+                    "comment": ""
+                }
+            ]
+        },
+        {
+            "question": "Äripäeva rikaste top 20, 2023",
+            "answers": [
+                {
+                    "answer": "Kristo Käärmann",
+                    "correct": true,
+                    "comment": "1"
+                },
+                {
+                    "answer": "Taavet Hinrikus",
+                    "correct": true,
+                    "comment": "2"
+                },
+                {
+                    "answer": "Markus Villig",
+                    "correct": true,
+                    "comment": "3"
+                },
+                {
+                    "answer": "Raul Kirjanen",
+                    "correct": true,
+                    "comment": "4, Graanul Invest"
+                },
+                {
+                    "answer": "Margus Linnamäe",
+                    "correct": true,
+                    "comment": "5"
+                },
+                {
+                    "answer": "Martin Villig",
+                    "correct": true,
+                    "comment": "9"
+                },
+                {
+                    "answer": "Oleg Gross",
+                    "correct": true,
+                    "comment": "20"
+                },
+                {
+                    "answer": "Parvel Pruunsild",
+                    "correct": false,
+                    "comment": "25"
+                },
+                {
+                    "answer": "Jüri Mõis",
+                    "correct": false,
+                    "comment": "107"
+                },
+                {
+                    "answer": "Urmas Sõõrumaa",
+                    "correct": false,
+                    "comment": "23"
+                }
             ]
         }
     ]

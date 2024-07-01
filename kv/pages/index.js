@@ -18,7 +18,7 @@ export default function Home() {
         <h1>Kahevõitlus</h1>
         <h2>Vali küsimus</h2>
         {Questions.questions.map((question) => (
-          <Link className={styles.question} key={question.question} href={`/${question.question}`}>
+          <Link className={styles.question} key={question.question} href={`/${encodeURIComponent(question.question)}`}>
             {question.question}
           </Link>
         ))}

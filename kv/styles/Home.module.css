@@ -25,7 +25,6 @@
 .question {
   display: flex;
   flex-direction: column;
-  align-items: center;
   border-radius: 1rem;
   border: 3px solid #fff;
   background-color: rgba(204, 218, 209, 0.2);

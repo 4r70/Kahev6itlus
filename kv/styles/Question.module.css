@@ -27,6 +27,7 @@
   justify-content: flex-end;
   flex-direction: column;
   z-index: 4;
+  cursor: pointer;
 }
 
 .centerColumn {
@@ -41,6 +42,7 @@
   justify-content: flex-end;
   text-align: right;
   z-index: 4;
+  cursor: pointer;
 }
 
 .turn1,
@@ -79,9 +81,9 @@
   );
 }
 
-.centerColumn > h1 {
-  font-size: 2rem;
-  font-size: clamp(2rem, 1.7rem + 1.5vw, 3.5rem);
+.centerColumn h1 {
+  font-size: 1.5rem;
+  font-size: clamp(1.5rem, 1.3rem + 1vw, 2.5rem);
   font-weight: 800;
   text-align: center;
   z-index: 5;
@@ -95,9 +97,16 @@
   z-index: 5;
 }
 
-.backButton, .resetButton {
+.backButton,
+.resetButton {
   all: unset;
   cursor: pointer;
+  margin-right: 1rem;
+}
+
+.resetButton {
+  margin-right: 0;
+  margin-left: 1rem;
 }
 
 .option {

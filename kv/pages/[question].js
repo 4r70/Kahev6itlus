@@ -5,6 +5,14 @@ import { useState, useEffect } from "react";
 import Back from "@/components/icons/back.js";
 import Reset from "@/components/icons/reset.js";
 
+function shuffleArray(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+  return array;
+}
+
 export default function Question() {
   const router = useRouter();
   const { question } = router.query;
@@ -28,10 +36,12 @@ export default function Question() {
     return <p>Question not found</p>;
   }
 
-  let correctAnswersNumber = questionData.answers.filter(
+  const shuffledAnswers = shuffleArray([...questionData.answers]);
+
+  let correctAnswersNumber = shuffledAnswers.filter(
     (answer) => answer.correct === true
   ).length;
-  let incorrectAnswersNumber = questionData.answers.filter(
+  let incorrectAnswersNumber = shuffledAnswers.filter(
     (answer) => answer.correct === false
   ).length;
 
@@ -120,7 +130,7 @@ export default function Question() {
             <Reset className={styles.resetIcon} width={40} height={40} />
           </button>
         </div>
-        {questionData.answers.map((answer, index) => (
+        {shuffledAnswers.map((answer, index) => (
           <div key={answer.answer} className={styles.answer}>
             <button
               disabled={revealed[index]}
