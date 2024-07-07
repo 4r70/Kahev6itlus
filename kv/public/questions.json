@@ -659,6 +659,330 @@
                     "comment": "23"
                 }
             ]
+        },
+        {
+            "question": "Päris taimed",
+            "answers": [
+                { "answer": "Huulhein", "correct": true },
+                { "answer": "Tupp-villpea", "correct": true },
+                { "answer": "Soovõhk", "correct": true },
+                {
+                    "answer": "Harilik häbemokk",
+                    "correct": false,
+                    "comment": "häbememokk lol"
+                },
+                {
+                    "answer": "Märghein",
+                    "correct": false,
+                    "comment": "Palu-härghein on olemas"
+                },
+                { "answer": "Alpikann", "correct": true },
+                {
+                    "answer": "Häbeuba",
+                    "correct": true,
+                    "comment": "Butterfly pea"
+                },
+                { "answer": "Ahvikakar", "correct": true },
+                { "answer": "Tutt-paksjalg", "correct": true },
+                { "answer": "Rohepõis", "correct": false }
+            ]
+        },
+        {
+            "question": "MLP tegelased",
+            "answers": [
+                { "answer": "Videvikusära", "correct": true },
+                { "answer": "Õunarüüp", "correct": true },
+                { "answer": "Vikerkaar", "correct": true },
+                { "answer": "Roosa", "correct": true },
+                { "answer": "Võbelus", "correct": true },
+                { "answer": "Haruldus", "correct": true },
+                { "answer": "Astel", "correct": true },
+                { "answer": "Särelus", "correct": false },
+                {
+                    "answer": "Koidukuma",
+                    "correct": false,
+                    "comment": "Koit;)"
+                },
+                { "answer": "Äikesesööst", "correct": false }
+            ]
+        },
+        {
+            "question": "Margus Linnamäe ettevõtted",
+            "answers": [
+                { "answer": "Apotheka", "correct": true },
+                { "answer": "Piletilevi", "correct": true },
+                { "answer": "Postimees", "correct": true },
+                { "answer": "Pet city", "correct": true },
+                { "answer": "Lido", "correct": true },
+                { "answer": "BNS", "correct": true },
+                { "answer": "Valge klaar/iDeal", "correct": true },
+                { "answer": "Solaris", "correct": false },
+                { "answer": "Burger king", "correct": false },
+                { "answer": "Kaubamaja", "correct": false }
+            ]
+        },
+        {
+            "question": "Rahvatantsusammud ja -võtted",
+            "answers": [
+                {
+                    "answer": "Vasak tiiselvõte",
+                    "correct": true,
+                    "comment": "Diiselvõte🗿"
+                },
+                { "answer": "Reilender", "correct": true },
+                { "answer": "Libliksamm", "correct": true },
+                { "answer": "Kargussamm", "correct": true },
+                { "answer": "Labajalavalsisamm", "correct": true },
+                { "answer": "Promenaadvõte", "correct": true },
+                { "answer": "Vallasvõte", "correct": true },
+                { "answer": "Kaisuvõte", "correct": false },
+                {
+                    "answer": "Veerandsangvõte",
+                    "correct": false,
+                    "comment": "Poolsangvõte ja sangvõte on olemas"
+                },
+                { "answer": "Madalsamm", "correct": false }
+            ]
+        },
+        {
+            "question": "Pastasordid",
+            "answers": [
+                {
+                    "answer": "Cellentani",
+                    "correct": true,
+                    "comment": "Vedru/sik-sak"
+                },
+                {
+                    "answer": "Gemelli",
+                    "correct": true,
+                    "comment": "Peened keerud"
+                },
+                {
+                    "answer": "Tortiglioni",
+                    "correct": true,
+                    "comment": "Vagudega torud"
+                },
+                {
+                    "answer": "Fettuccine",
+                    "correct": true,
+                    "comment": "Pikad lindid"
+                },
+                { "answer": "Farfalle", "correct": true, "comment": "Lipsud" },
+                {
+                    "answer": "Linguine",
+                    "correct": true,
+                    "comment": "Lapikud spagetid"
+                },
+                {
+                    "answer": "Ravioli",
+                    "correct": true,
+                    "comment": "Täidisega padjake"
+                },
+                {
+                    "answer": "Gnocchi",
+                    "correct": false,
+                    "comment": "Seda loetakse pelmeeniks, kartulist tehtud"
+                },
+                { "answer": "Patate", "correct": false, "comment": "Kartul" },
+                { "answer": "Alba", "correct": false, "comment": "Koit" }
+            ]
+        },
+        {
+            "question": "HTML tagid",
+            "answers": [
+                { "answer": "<summary>", "correct": true },
+                {
+                    "answer": "<strong>",
+                    "correct": true,
+                    "comment": "Peaaegu nagu bold"
+                },
+                {
+                    "answer": "<acronym>",
+                    "correct": true,
+                    "comment": "HTML4s ainult"
+                },
+                {
+                    "answer": "<abbr>",
+                    "correct": true,
+                    "comment": "Sama mis <acronym>, aga HTML5 jaoks"
+                },
+                { "answer": "<meta>", "correct": true },
+                { "answer": "<time>", "correct": true },
+                { "answer": "<br>", "correct": true, "comment": "brrr" },
+                {
+                    "answer": "<based>",
+                    "correct": false,
+                    "comment": "<base> on"
+                },
+                { "answer": "<distance>", "correct": false },
+                {
+                    "answer": "<il>",
+                    "correct": false,
+                    "comment": "<ul> ja <ol> on"
+                }
+            ]
+        },
+        {
+            "question": "Naiste meigitooted",
+            "answers": [
+                {
+                    "answer": "Kompaktpuuder",
+                    "correct": true,
+                    "comment": "Muudab naha sametiseks"
+                },
+                { "answer": "Peitepulk", "correct": true },
+                { "answer": "Särakreem", "correct": true },
+                { "answer": "Meigifiksaator", "correct": true },
+                {
+                    "answer": "Kulmuvaha",
+                    "correct": true,
+                    "comment": "Kujundab ja fikseerib kulme"
+                },
+                { "answer": "Ninapliiats", "correct": false },
+                {
+                    "answer": "Kulmuseep",
+                    "correct": true,
+                    "comment": "Annab paksust, volüümi ja tekstuuri"
+                },
+                {
+                    "answer": "Toonitaja",
+                    "correct": false,
+                    "comment": "Kõlab nagu toner ingl, tegelikult on toonik"
+                },
+                {
+                    "answer": "Valgustpeegeldav puuder",
+                    "correct": true,
+                    "comment": "Ingl highlighter"
+                },
+                {
+                    "answer": "Valgustneelav puuder",
+                    "correct": false,
+                    "comment": "💀"
+                }
+            ]
+        },
+        {
+            "question": "HTG vilistlased",
+            "answers": [
+                { "answer": "Aigar Vaigu", "correct": true },
+                { "answer": "Taavi Kotka", "correct": true },
+                { "answer": "Rolf Roosalu", "correct": true },
+                { "answer": "Oskar Luts", "correct": false },
+                {
+                    "answer": "Jaak Aaviksoo",
+                    "correct": false,
+                    "comment": "MHG vilistlane"
+                },
+                { "answer": "Anton Hansen Tammsaare", "correct": true },
+                { "answer": "Sander Õigus", "correct": true },
+                {
+                    "answer": "Alar Karis",
+                    "correct": false,
+                    "comment": "MHG vilistlane"
+                },
+                { "answer": "Friedebert Tuglas", "correct": true },
+                { "answer": "Hando Runnel", "correct": true }
+            ]
+        },
+        {
+            "question": "Discgolfi visked",
+            "answers": [
+                { "answer": "Push putt", "correct": true },
+                { "answer": "Turbo putt", "correct": true },
+                { "answer": "Tomahawk", "correct": true },
+                { "answer": "Chicken wing", "correct": true },
+                { "answer": "Skip shot", "correct": true },
+                { "answer": "Spike hyzer", "correct": true },
+                { "answer": "Grenade", "correct": true },
+                {
+                    "answer": "Molotov",
+                    "correct": false,
+                    "comment": "Molotovi kokteil kahjuks ainult"
+                },
+                {
+                    "answer": "Lag putt",
+                    "correct": false,
+                    "comment": "(Palli)golfis hoopis"
+                },
+                { "answer": "Spin hyzer", "correct": false }
+            ]
+        },
+        {
+            "question": "Viinad",
+            "answers": [
+                { "answer": "Hiie viin", "correct": true },
+                { "answer": "Taxi vodka", "correct": true },
+                { "answer": "Moe viin", "correct": true },
+                { "answer": "Eesti standard", "correct": true },
+                { "answer": "Mulgi viin", "correct": true },
+                { "answer": "Smirnoff", "correct": true },
+                { "answer": "Hõbe viin", "correct": true },
+                {
+                    "answer": "Muhu viin",
+                    "correct": false,
+                    "comment": "Researchides tundus, et saaremaa on ainus"
+                },
+                { "answer": "Ikka viin", "correct": false, "comment": "Laul" },
+                {
+                    "answer": "Must viin",
+                    "correct": false,
+                    "comment": "Valge viin on"
+                }
+            ]
+        },
+        {
+            "question": "Exceli käsud/funktsioonid",
+            "answers": [
+                { "answer": "XLOOKUP", "correct": true },
+                { "answer": "ISERR", "correct": true },
+                {
+                    "answer": "MUNIT",
+                    "correct": true,
+                    "comment": "Ühikmaatriksi loomine"
+                },
+                {
+                    "answer": "T",
+                    "correct": true,
+                    "comment": "Argumendid tekstiks"
+                },
+                {
+                    "answer": "FORMULATEXT",
+                    "correct": true,
+                    "comment": "Formula as a string"
+                },
+                { "answer": "SHEET", "correct": true, "comment": "Lehe nr" },
+                {
+                    "answer": "CODE",
+                    "correct": true,
+                    "comment": "Char code sõne esimeslee tähemärgile"
+                },
+                {
+                    "answer": "SUMIFNOT",
+                    "correct": false,
+                    "comment": "SUMIF on olemas"
+                },
+                { "answer": "CHOOSEFROM", "correct": false },
+                {
+                    "answer": "MROUNDUP",
+                    "correct": false,
+                    "comment": "Number rounded to the desired multiple"
+                }
+            ]
+        },
+        {
+            "question": "Millised neist on puuviljad (botaanilises mõttes)?",
+            "answers": [
+                {"answer": "Maasikas", "correct": true, "comment": "seemned on tegelikult viljad, mille sees on seemned"},
+                {"answer": "Vaarikas", "correct": true, "comment": "koosneb mitmetest viljadest"},
+                {"answer": "Banaan", "correct": true, "comment": "see on mari ja ühtlasi ka puuvili"},
+                {"answer": "Rabarber", "correct": false, "comment": "juurvili ikkagi"},
+                {"answer": "Tomat", "correct": true},
+                {"answer": "Kurk", "correct": true},
+                {"answer": "Avokaado", "correct": false, "comment": "ühe seemnega mari"},
+                {"answer": "Kartul", "correct": false, "comment": "juurvili ikkagi, aga sellel on ka maa peal kasvavad viljad"},
+                {"answer": "Paprika", "correct": true},
+                {"answer": "Oliivid", "correct": true}
+            ]
         }
     ]
 }
