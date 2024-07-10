@@ -661,7 +661,7 @@
             ]
         },
         {
-            "question": "Päris taimed",
+            "question": "Päris taimed (F)",
             "answers": [
                 { "answer": "Huulhein", "correct": true },
                 { "answer": "Tupp-villpea", "correct": true },
@@ -688,7 +688,7 @@
             ]
         },
         {
-            "question": "MLP tegelased",
+            "question": "MLP tegelased (F)",
             "answers": [
                 { "answer": "Videvikusära", "correct": true },
                 { "answer": "Õunarüüp", "correct": true },
@@ -707,7 +707,7 @@
             ]
         },
         {
-            "question": "Margus Linnamäe ettevõtted",
+            "question": "Margus Linnamäe ettevõtted (F)",
             "answers": [
                 { "answer": "Apotheka", "correct": true },
                 { "answer": "Piletilevi", "correct": true },
@@ -722,7 +722,7 @@
             ]
         },
         {
-            "question": "Rahvatantsusammud ja -võtted",
+            "question": "Rahvatantsusammud ja -võtted (F)",
             "answers": [
                 {
                     "answer": "Vasak tiiselvõte",
@@ -745,7 +745,7 @@
             ]
         },
         {
-            "question": "Pastasordid",
+            "question": "Pastasordid (F)",
             "answers": [
                 {
                     "answer": "Cellentani",
@@ -970,18 +970,42 @@
             ]
         },
         {
-            "question": "Millised neist on puuviljad (botaanilises mõttes)?",
+            "question": "(Botaanilises mõttes) puuviljad (F)",
             "answers": [
-                {"answer": "Maasikas", "correct": true, "comment": "seemned on tegelikult viljad, mille sees on seemned"},
-                {"answer": "Vaarikas", "correct": true, "comment": "koosneb mitmetest viljadest"},
-                {"answer": "Banaan", "correct": true, "comment": "see on mari ja ühtlasi ka puuvili"},
-                {"answer": "Rabarber", "correct": false, "comment": "juurvili ikkagi"},
-                {"answer": "Tomat", "correct": true},
-                {"answer": "Kurk", "correct": true},
-                {"answer": "Avokaado", "correct": false, "comment": "ühe seemnega mari"},
-                {"answer": "Kartul", "correct": false, "comment": "juurvili ikkagi, aga sellel on ka maa peal kasvavad viljad"},
-                {"answer": "Paprika", "correct": true},
-                {"answer": "Oliivid", "correct": true}
+                {
+                    "answer": "Maasikas",
+                    "correct": true,
+                    "comment": "seemned on tegelikult viljad, mille sees on seemned"
+                },
+                {
+                    "answer": "Vaarikas",
+                    "correct": true,
+                    "comment": "koosneb mitmetest viljadest"
+                },
+                {
+                    "answer": "Banaan",
+                    "correct": true,
+                    "comment": "see on mari ja ühtlasi ka puuvili"
+                },
+                {
+                    "answer": "Rabarber",
+                    "correct": false,
+                    "comment": "juurvili ikkagi"
+                },
+                { "answer": "Tomat", "correct": true },
+                { "answer": "Kurk", "correct": true },
+                {
+                    "answer": "Avokaado",
+                    "correct": false,
+                    "comment": "ühe seemnega mari"
+                },
+                {
+                    "answer": "Kartul",
+                    "correct": false,
+                    "comment": "juurvili ikkagi, aga sellel on ka maa peal kasvavad viljad"
+                },
+                { "answer": "Paprika", "correct": true },
+                { "answer": "Oliivid", "correct": true }
             ]
         }
     ]

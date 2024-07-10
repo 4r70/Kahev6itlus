@@ -5,14 +5,6 @@ import { useState, useEffect } from "react";
 import Back from "@/components/icons/back.js";
 import Reset from "@/components/icons/reset.js";
 
-function shuffleArray(array) {
-  for (let i = array.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [array[i], array[j]] = [array[j], array[i]];
-  }
-  return array;
-}
-
 export default function Question() {
   const router = useRouter();
   const { question } = router.query;
@@ -25,18 +17,24 @@ export default function Question() {
   const [scoreAdded, setScoreAdded] = useState(10);
   const [guessedCorrectAnswers, setGuessedCorrectAnswers] = useState(0);
   const [guessWrongAnswers, setGuessWrongAnswers] = useState(0);
+  const [shuffledAnswers, setShuffledAnswers] = useState([]);
+
+  useEffect(() => {
+    if (router.isReady && question) {
+      const questionData = Questions.questions.find(
+        (q) => q.question === question
+      );
+      if (!questionData) {
+        console.error('Question not found');
+        return;
+      }
+      setShuffledAnswers(shuffleArray([...questionData.answers]));
+    }
+  }, [router.isReady, question]);
 
   if (!router.isReady || !question) {
     return <p>Loading...</p>;
   }
-
-  const questionData = Questions.questions.find((q) => q.question === question);
-
-  if (!questionData) {
-    return <p>Question not found</p>;
-  }
-
-  const shuffledAnswers = shuffleArray([...questionData.answers]);
 
   let correctAnswersNumber = shuffledAnswers.filter(
     (answer) => answer.correct === true
@@ -49,7 +47,7 @@ export default function Question() {
     console.log(answer.correct);
     const updatedRevealed = [...revealed];
     updatedRevealed[index] = true;
-    setRevealed(revealed.map((item, i) => (i === index ? true : item)));
+    setRevealed(updatedRevealed);
 
     if (answer.correct) {
       setGuessedCorrectAnswers((prev) => prev + 1);
@@ -125,7 +123,7 @@ export default function Question() {
           <button onClick={() => router.back()} className={styles.backButton}>
             <Back className={styles.backIcon} width={40} height={40} />
           </button>
-          <h1>{questionData.question}</h1>
+          <h1>{question}</h1>
           <button onClick={() => resetAll()} className={styles.resetButton}>
             <Reset className={styles.resetIcon} width={40} height={40} />
           </button>
@@ -134,20 +132,29 @@ export default function Question() {
           <div key={answer.answer} className={styles.answer}>
             <button
               disabled={revealed[index]}
-              onClick={() => showAnswer(answer, index, turn)}
-              className={`${styles.option} ${
-                revealed[index]
+              onClick={() => showAnswer(answer, index)}
+              className={`${styles.option} ${revealed[index]
                   ? answer.correct
                     ? styles.correct
                     : styles.incorrect
                   : ""
-              }`}
+                }`}
             >
               <span>{index + 1}.</span>
               <p>{answer.answer}</p>
             </button>
           </div>
         ))}
+        <div className={styles.pointsSwitchRow}>
+          <label className={styles.pointsSwitch}>
+            <input
+              className={styles.pointsSwitchInput}
+              type="checkbox"
+              onChange={() => setScoreAdded(scoreAdded === 10 ? 30 : 10)}
+            />
+            <span className={styles.slider}></span>
+          </label>
+        </div>
       </div>
       {turn === 2 ? <div className={styles.turn2}></div> : null}
       <div className={styles.rightColumn} onClick={() => setTurn(2)}>
@@ -163,3 +170,12 @@ export default function Question() {
     </div>
   );
 }
+
+function shuffleArray(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+  return array;
+}
+

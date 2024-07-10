@@ -19,3 +19,4 @@ Server avaneb localhost:3000
 2. Hetkel ei ole mäng veebilehel hostitud.
 3. Mäng ei ole mängitav kitsastel ekraanidel.
 4. Mängida saab vaid 1 raund/küsimus korraga, pärast mida peab uue küsimuse valima ja skoor on jälle nullis. Kunagi vb implementeerin mitme raundiga süsteemi.
+5. Küsitud küsimusi ei saa kuidagi märgistada.
