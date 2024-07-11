@@ -53,9 +53,9 @@ export default function Question() {
       setGuessedCorrectAnswers((prev) => prev + 1);
       checkRemainingAnswers("correct");
       if (turn === 1) {
-        setScore1(score1 + scoreAdded);
+        setScore1((prev) => prev + scoreAdded);
       } else {
-        setScore2(score2 + scoreAdded);
+        setScore2((prev) => prev + scoreAdded);
       }
     } else {
       setGuessWrongAnswers((prev) => prev + 1);
@@ -81,9 +81,9 @@ export default function Question() {
       if (guessWrongAnswers + 1 === incorrectAnswersNumber) {
         revealAllAnswers();
         if (turn === 1) {
-          setScore2(score2 + remainingScore);
+          setScore2((prev) => prev + remainingScore);
         } else {
-          setScore1(score1 + remainingScore);
+          setScore1((prev) => prev + remainingScore);
         }
       }
     }
@@ -109,14 +109,36 @@ export default function Question() {
       <div className={styles.darken}></div>
       {turn === 1 ? <div className={styles.turn1}></div> : null}
       <div className={styles.leftColumn} onClick={() => setTurn(1)}>
-        <input
-          className={styles.playerName}
-          placeholder="Sisesta nimi..."
-          value={player1}
-          onChange={(e) => setPlayer1(e.target.value)}
-        />
-        <input className={styles.mainScore} type="number" value={score1} />
-        <p className={styles.mainScoreTitle}>Üldskoor</p>
+        <div className={styles.pointsSwitchRow}>
+          <div className={styles.pointsSwitchTitle}>Jagatavad punktid:</div>
+          10
+          <label className={styles.pointsSwitch}>
+            <input
+              className={styles.pointsSwitchInput}
+              type="checkbox"
+              onChange={() =>
+                setScoreAdded((prev) => (prev === 10 ? 30 : 10))
+              }
+            />
+            <span className={styles.slider}></span>
+          </label>
+          30
+        </div>
+        <div className={styles.playerRow}>
+          <input
+            className={styles.playerName}
+            placeholder="Sisesta nimi..."
+            value={player1}
+            onChange={(e) => setPlayer1(e.target.value)}
+          />
+          <input
+            className={styles.mainScore}
+            type="number"
+            value={score1}
+            onChange={(e) => setScore1(parseInt(e.target.value))}
+          />
+          <p className={styles.mainScoreTitle}>Üldskoor</p>
+        </div>
       </div>
       <div className={styles.centerColumn}>
         <div className={styles.topRow}>
@@ -134,10 +156,10 @@ export default function Question() {
               disabled={revealed[index]}
               onClick={() => showAnswer(answer, index)}
               className={`${styles.option} ${revealed[index]
-                  ? answer.correct
-                    ? styles.correct
-                    : styles.incorrect
-                  : ""
+                ? answer.correct
+                  ? styles.correct
+                  : styles.incorrect
+                : ""
                 }`}
             >
               <span>{index + 1}.</span>
@@ -145,16 +167,6 @@ export default function Question() {
             </button>
           </div>
         ))}
-        <div className={styles.pointsSwitchRow}>
-          <label className={styles.pointsSwitch}>
-            <input
-              className={styles.pointsSwitchInput}
-              type="checkbox"
-              onChange={() => setScoreAdded(scoreAdded === 10 ? 30 : 10)}
-            />
-            <span className={styles.slider}></span>
-          </label>
-        </div>
       </div>
       {turn === 2 ? <div className={styles.turn2}></div> : null}
       <div className={styles.rightColumn} onClick={() => setTurn(2)}>
@@ -164,7 +176,12 @@ export default function Question() {
           value={player2}
           onChange={(e) => setPlayer2(e.target.value)}
         />
-        <input className={styles.mainScore} type="number" value={score2} />
+        <input
+          className={styles.mainScore}
+          type="number"
+          value={score2}
+          onChange={(e) => setScore2(parseInt(e.target.value))}
+        />
         <p className={styles.mainScoreTitle}>Üldskoor</p>
       </div>
     </div>
