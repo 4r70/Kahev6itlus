@@ -106,6 +106,7 @@ export default function Question() {
     setPlayer1("");
     setPlayer2("");
     setCurrentComment("");
+    setScoreAdded(10);
   }
 
   return (
