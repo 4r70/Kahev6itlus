@@ -149,7 +149,7 @@ export default function Question() {
               onChange={(e) => setScore1(parseInt(e.target.value))}
               onClick={(e) => e.stopPropagation()}
             />
-            <p className={styles.mainScoreTitle}>Üldskoor</p>
+            <p className={styles.mainScoreTitle}>Skoor</p>
           </div>
         </div>
         <div className={styles.centerColumn}>
@@ -205,7 +205,7 @@ export default function Question() {
               onChange={(e) => setScore2(parseInt(e.target.value))}
               onClick={(e) => e.stopPropagation()}
             />
-            <p className={styles.mainScoreTitle}>Üldskoor</p>
+            <p className={styles.mainScoreTitle}>Skoor</p>
           </div>
         </div>
       </div>
