@@ -281,7 +281,7 @@
                 {
                     "answer": "du",
                     "correct": true,
-                    "comment": "disk usage"
+                    "comment": "Disk usage"
                 },
                 {
                     "answer": "t",
@@ -301,7 +301,7 @@
                 {
                     "answer": "rmk",
                     "correct": false,
-                    "comment": "riigi metsamajanduse keskus"
+                    "comment": "Riigi Metsamajanduse Keskus"
                 },
                 {
                     "answer": "gcc",
@@ -316,12 +316,12 @@
                 {
                     "answer": "gawk",
                     "correct": true,
-                    "comment": "pattern matching"
+                    "comment": "Pattern matching"
                 },
                 {
                     "answer": "tmt",
                     "correct": false,
-                    "comment": "nublu laul"
+                    "comment": "Nublu laul"
                 },
                 {
                     "answer": "wc",
@@ -336,7 +336,7 @@
                 {
                     "answer": "CAGR",
                     "correct": true,
-                    "comment": "Compound annual growth rate"
+                    "comment": "Compound Annual Growth Rate"
                 },
                 {
                     "answer": "CEE",
@@ -356,7 +356,7 @@
                 {
                     "answer": "PIGS",
                     "correct": true,
-                    "comment": "Portugal italy greece spain"
+                    "comment": "Portugal Italy Greece Spain"
                 },
                 {
                     "answer": "LIBOR",
@@ -371,7 +371,7 @@
                 {
                     "answer": "MILF",
                     "correct": false,
-                    "comment": "Man I love frogs"
+                    "comment": "Man I Love Frogs"
                 },
                 {
                     "answer": "NGR",
