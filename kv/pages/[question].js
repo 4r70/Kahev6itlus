@@ -122,12 +122,12 @@ export default function Question() {
           <div className={styles.pointsSwitchRow}>
             <div className={styles.pointsSwitchTitle}>Jagatavad punktid:</div>
             10
-            <label className={styles.pointsSwitch}>
+            <label className={styles.pointsSwitch} onClick={(e) => e.stopPropagation()}>
               <input
                 className={styles.pointsSwitchInput}
                 type="checkbox"
-                onChange={() =>
-                  setScoreAdded((prev) => (prev === 10 ? 30 : 10))
+                onChange={(e) =>
+                  setScoreAdded((prev,) => (prev === 10 ? 30 : 10))
                 }
               />
               <span className={styles.slider}></span>
@@ -140,12 +140,14 @@ export default function Question() {
               placeholder="Sisesta nimi..."
               value={player1}
               onChange={(e) => setPlayer1(e.target.value)}
+              onClick={(e) => e.stopPropagation()}
             />
             <input
               className={styles.mainScore}
               type="number"
               value={score1}
               onChange={(e) => setScore1(parseInt(e.target.value))}
+              onClick={(e) => e.stopPropagation()}
             />
             <p className={styles.mainScoreTitle}>Üldskoor</p>
           </div>
@@ -194,12 +196,14 @@ export default function Question() {
               placeholder="Sisesta nimi..."
               value={player2}
               onChange={(e) => setPlayer2(e.target.value)}
+              onClick={(e) => e.stopPropagation()}
             />
             <input
               className={styles.mainScore}
               type="number"
               value={score2}
               onChange={(e) => setScore2(parseInt(e.target.value))}
+              onClick={(e) => e.stopPropagation()}
             />
             <p className={styles.mainScoreTitle}>Üldskoor</p>
           </div>
