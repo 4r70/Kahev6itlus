@@ -1,6 +1,6 @@
 .main {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 30fr 40fr 30fr;
   grid-template-rows: 1fr;
   justify-content: space-between;
   align-content: center;
@@ -33,13 +33,14 @@
 .centerColumn {
   display: flex;
   flex-direction: column;
+  align-self: center;
 }
 
 .rightColumn {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  justify-content: flex-end;
+  justify-content: space-between;
   text-align: right;
   z-index: 4;
   cursor: pointer;
@@ -47,7 +48,7 @@
 
 .turn1,
 .turn2 {
-  position: absolute;
+  position: fixed;
   background-image: radial-gradient(farthest-corner circle at 0% 50% in srgb,
       hsl(34 100% 61% / 80%) 0%,
       40%,
@@ -142,7 +143,7 @@
   font-size: clamp(3rem, 2.8rem + 1vw, 4rem);
   font-weight: 800;
   z-index: 5;
-  width: 15ch;
+  width: 14ch;
 }
 
 .playerName::placeholder {
@@ -261,4 +262,12 @@
   -webkit-transform: translateX(2rem);
   -ms-transform: translateX(2rem);
   transform: translateX(2rem);
+}
+
+.commentRow {
+  z-index: 5;
+  align-self: flex-end;
+  text-align: right;
+  font-size: 1rem;
+  font-size: clamp(1rem, 0.95rem + 0.25vw, 1.25rem);
 }
