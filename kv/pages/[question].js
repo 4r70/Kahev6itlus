@@ -105,6 +105,7 @@ export default function Question() {
     setTurn(0);
     setPlayer1("");
     setPlayer2("");
+    setCurrentComment("");
   }
 
   return (
