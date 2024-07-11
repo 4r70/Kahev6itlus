@@ -1007,6 +1007,82 @@
                 { "answer": "Paprika", "correct": true },
                 { "answer": "Oliivid", "correct": true }
             ]
+        },
+        {
+            "question": "Millised neist on jõusaaliharjutused?",
+            "answers": [
+                { "answer": "Bench press", "correct": true },
+                { "answer": "Ab press", "correct": false },
+                { "answer": "Preacher curl", "correct": true },
+                { "answer": "Man maker", "correct": true },
+                {
+                    "answer": "Inchworm",
+                    "correct": true,
+                    "comment": "See kui rullikuga liigud edasi-tagasi"
+                },
+                {
+                    "answer": "Devil press",
+                    "correct": true,
+                    "comment": "Natuke nagu hantlitega kosmonaut"
+                },
+                { "answer": "Goblet Squat", "correct": true },
+                {
+                    "answer": "Turkish get-up",
+                    "correct": true,
+                    "comment": "Ühe jalaga püsti saamine kui hantel pea kohal"
+                },
+                { "answer": "Incline leg extension", "correct": false },
+                { "answer": "Polish chin-up", "correct": false }
+            ]
+        },
+        {
+            "question": "Millised neist on maailma pealinnad?",
+            "answers": [
+                {
+                    "answer": "Rio de Janeiro",
+                    "correct": false,
+                    "comment": "Brasilia"
+                },
+                { "answer": "Sydney", "correct": false, "comment": "Canberra" },
+                { "answer": "Istanbul", "correct": false, "comment": "Ankara" },
+                { "answer": "Ottawa", "correct": true, "comment": "Kanada" },
+                {
+                    "answer": "Jerusalem",
+                    "correct": true,
+                    "comment": "Iisrael"
+                },
+                { "answer": "Peking", "correct": true, "comment": "Hiina" },
+                {
+                    "answer": "Seoul",
+                    "correct": true,
+                    "comment": "Lõuna-Korea"
+                },
+                { "answer": "Lima", "correct": true, "comment": "Peruu" },
+                { "answer": "Kaplinn", "correct": true, "comment": "LAV" },
+                { "answer": "New Delhi", "correct": true, "comment": "India" }
+            ]
+        },
+        {
+            "question": "Millised neist on päris maleavangud?",
+            "answers": [
+                { "answer": "Fried liver attack", "correct": true },
+                { "answer": "Queen's gambit", "correct": true },
+                { "answer": "Bongcloud", "correct": true },
+                { "answer": "Slav defense", "correct": true },
+                { "answer": "Beachcafe opening", "correct": true },
+                {
+                    "answer": "Intercontinental ballistic missile gambit",
+                    "correct": true
+                },
+                {
+                    "answer": "Monkey's bum variation",
+                    "correct": true,
+                    "comment": "Modern defense"
+                },
+                { "answer": "Meteor attack", "correct": false },
+                { "answer": "Pheonix gambit", "correct": false },
+                { "answer": "New York gambit", "correct": false }
+            ]
         }
     ]
 }
