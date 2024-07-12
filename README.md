@@ -22,6 +22,12 @@ Kirjuta terminali:
 
 Server avaneb localhost:3000
 
+### Mängu käik
+1. Vali küsimus
+2. Sisesta nimed
+3. Vali, kas punkte jagatakse 10 või 30 kaupa
+4. Vajuta alustava mängija poolele, et anda kord tema kätte.
+
 ## Hetkesed plaanid/piirangud
 1. Praegu on küsimused static JSONis ja nende lisamine ei ole seetõttu mugav. Kunagi tulevikus teen võib-olla mugava UI küsimuste loomiseks.
 2. Mäng ei ole mängitav kitsastel ekraanidel.
@@ -53,6 +59,12 @@ Write in the terminal:
 ```npm run dev```
 
 Server opens at localhost:3000
+
+### Gameplay
+1. Choose a question
+2. Enter names
+3. Choose whether the points are given in 10 or 30 increments
+4. Click on the side of the starting player to pass the turn to them.
 
 ## Current plans/limitations
 1. Currently the questions are in static JSON and adding them is therefore not convenient. Sometime in the future I might make a handy UI for creating questions.
