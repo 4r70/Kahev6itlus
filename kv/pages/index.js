@@ -17,11 +17,13 @@ export default function Home() {
       <main className={styles.main}>
         <h1>Kahevõitlus</h1>
         <h2>Vali küsimus</h2>
-        {Questions.questions.map((question) => (
-          <Link className={styles.question} key={question.question} href={`/${encodeURIComponent(question.question)}`}>
-            {question.question}
-          </Link>
-        ))}
+        <div className={styles.questions}>
+          {Questions.questions.map((question) => (
+            <Link className={styles.question} key={question.question} href={`/${encodeURIComponent(question.question)}`}>
+              {question.question}
+            </Link>
+          ))}
+        </div>
       </main>
     </>
   );

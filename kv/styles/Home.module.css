@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   padding: 3rem;
-  min-height: 100vh;
+  max-height: 100dvh;
   background-color: #0d3b66;
   color: white;
 }
@@ -20,6 +20,14 @@
   font-size: clamp(1.5rem, 1.2rem + 1.5vw, 2.5rem);
   font-weight: 600;
   margin-bottom: 1rem;
+}
+
+.questions {
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  padding-right: 1rem;
+  margin-left: 1rem;
 }
 
 .question {
