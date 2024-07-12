@@ -69,7 +69,7 @@ Server opens at localhost:3000
 ## Current plans/limitations
 1. Currently the questions are in static JSON and adding them is therefore not convenient. Sometime in the future I might make a handy UI for creating questions.
 2. The game is not playable on narrow screens.
-3. You can only play 1 round/question at a time, after which you have to choose a new question and the score is zero again. Someday, for example, I will implement a multi-round system. Score can be manually edited though.
+3. You can only play 1 round/question at a time, after which you have to choose a new question and the score is zero again. Someday I will implement a multi-round system. Score can be manually edited though.
 4. There is no way to mark the questions asked.
 5. Online multiplayer support would be awesome. Along with donating questions to make the question database bigger.
 6. If there are more questions, it would be necessary to search by topic, e.g.
