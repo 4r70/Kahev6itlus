@@ -107,6 +107,7 @@ export default function Question() {
     setPlayer2("");
     setCurrentComment("");
     setScoreAdded(10);
+    document.getElementById('pointsSwitchInput').checked = false;
   }
 
   return (
@@ -128,6 +129,7 @@ export default function Question() {
               <input
                 className={styles.pointsSwitchInput}
                 type="checkbox"
+                id="pointsSwitchInput"
                 onChange={(e) =>
                   setScoreAdded((prev,) => (prev === 10 ? 30 : 10))
                 }
