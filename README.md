@@ -22,11 +22,20 @@ Kirjuta terminali:
 
 Server avaneb localhost:3000
 
+### Mängu käik
+1. Vali küsimus
+2. Sisesta nimed
+3. Vali, kas punkte jagatakse 10 või 30 kaupa
+4. Vajuta alustava mängija poolele, et anda kord tema kätte.
+
 ## Hetkesed plaanid/piirangud
-1. Praegu on küsimused static JSONis ja nende lisamine ei ole seetõttu mugav. Kunagi tulevikus teen võib-olla mugava UI enda küsimuste loomiseks.
+1. Praegu on küsimused static JSONis ja nende lisamine ei ole seetõttu mugav. Kunagi tulevikus teen võib-olla mugava UI küsimuste loomiseks.
 2. Mäng ei ole mängitav kitsastel ekraanidel.
 3. Mängida saab vaid 1 raund/küsimus korraga, pärast mida peab uue küsimuse valima ja skoor on jälle nullis. Kunagi vb implementeerin mitme raundiga süsteemi. Skoori on aga võimalik manuaalselt muuta.
 4. Küsitud küsimusi ei saa kuidagi märgistada.
+5. Online multiplayer support oleks äge. Koos küsimuste annetamisega, et küsimuste andmebaas oleks suurem.
+6. Kui küsimusi on rohkem, siis oleks vaja otsingut teemade kaupa nt.
+7. Inglise keele tugi võiks olla.
 
 # EN Kahevõitlus
 
@@ -51,8 +60,17 @@ Write in the terminal:
 
 Server opens at localhost:3000
 
+### Gameplay
+1. Choose a question
+2. Enter names
+3. Choose whether the points are given in 10 or 30 increments
+4. Click on the side of the starting player to pass the turn to them.
+
 ## Current plans/limitations
-1. Currently the questions are in static JSON and adding them is therefore not convenient. Sometime in the future I might make a handy UI for creating my own questions.
+1. Currently the questions are in static JSON and adding them is therefore not convenient. Sometime in the future I might make a handy UI for creating questions.
 2. The game is not playable on narrow screens.
 3. You can only play 1 round/question at a time, after which you have to choose a new question and the score is zero again. Someday, for example, I will implement a multi-round system. Score can be manually edited though.
 4. There is no way to mark the questions asked.
+5. Online multiplayer support would be awesome. Along with donating questions to make the question database bigger.
+6. If there are more questions, it would be necessary to search by topic, e.g.
+7. English language support would be cool.
