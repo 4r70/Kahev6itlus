@@ -124,21 +124,23 @@ export default function Question() {
         <div className={styles.leftColumn} onClick={() => setTurn(1)}>
           <div className={styles.pointsSwitchRow}>
             <div className={styles.pointsSwitchTitle}>Jagatavad punktid:</div>
-            10
-            <label className={styles.pointsSwitch} onClick={(e) => e.stopPropagation()}>
-              <input
-                className={styles.pointsSwitchInput}
-                type="checkbox"
-                id="pointsSwitchInput"
-                onChange={(e) =>
-                  setScoreAdded((prev,) => (prev === 10 ? 30 : 10))
-                }
-              />
-              <span className={styles.slider}></span>
-            </label>
-            30
+            <div className={styles.pointsSwitchContainer}>
+              10
+              <label className={styles.pointsSwitch} onClick={(e) => e.stopPropagation()}>
+                <input
+                  className={styles.pointsSwitchInput}
+                  type="checkbox"
+                  id="pointsSwitchInput"
+                  onChange={(e) =>
+                    setScoreAdded((prev,) => (prev === 10 ? 30 : 10))
+                  }
+                />
+                <span className={styles.slider}></span>
+              </label>
+              30
+            </div>
           </div>
-          <div className={styles.playerRow}>
+          <div className={styles.playerRowLeft}>
             <input
               className={styles.playerName}
               placeholder="Sisesta nimi..."
@@ -166,8 +168,8 @@ export default function Question() {
               <Reset className={styles.resetIcon} width={40} height={40} />
             </button>
           </div>
-          {shuffledAnswers.map((answer, index) => (
-            <div key={answer.answer} className={styles.answer}>
+          <div className={styles.optionsColumn}>
+            {shuffledAnswers.map((answer, index) => (
               <button
                 disabled={revealed[index]}
                 onClick={() => showAnswer(answer, index)}
@@ -181,8 +183,8 @@ export default function Question() {
                 <span>{index + 1}.</span>
                 <p>{answer.answer}</p>
               </button>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
         {turn === 2 ? <div className={styles.turn2}></div> : null}
         <div className={styles.rightColumn} onClick={() => setTurn(2)}>
@@ -194,7 +196,7 @@ export default function Question() {
             )
             }
           </div>
-          <div className={styles.playerRow}>
+          <div className={styles.playerRowRight}>
             <input
               className={styles.playerName}
               placeholder="Sisesta nimi..."
