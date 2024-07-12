@@ -34,6 +34,7 @@
   display: flex;
   flex-direction: column;
   align-self: center;
+  max-height: calc(100dvh - 4rem);
 }
 
 .rightColumn {
@@ -79,8 +80,8 @@
 }
 
 .centerColumn h1 {
-  font-size: 1.5rem;
-  font-size: clamp(1.5rem, 1.3rem + 1vw, 2.5rem);
+  font-size: 1.25rem;
+  font-size: clamp(1.25rem, 1rem + 1.25vw, 2.5rem);
   font-weight: 800;
   text-align: center;
   z-index: 5;
@@ -118,8 +119,8 @@
   border-radius: 1rem;
   border: 3px solid #fff;
   background-color: rgba(204, 218, 209, 0.2);
-  font-size: 1.5rem;
-  font-size: clamp(1.5rem, 1.4rem + 0.5vw, 2rem);
+  font-size: 1.25rem;
+  font-size: clamp(1.25rem, 1.1rem + 0.75vw, 2rem);
   font-weight: 500;
   padding: 0.5rem 2rem;
   cursor: pointer;
@@ -144,8 +145,8 @@
 
 .playerName {
   all: unset;
-  font-size: 3rem;
-  font-size: clamp(3rem, 2.8rem + 1vw, 4rem);
+  font-size: 2.5rem;
+  font-size: clamp(2.5rem, 2.2rem + 1.5vw, 4rem);
   font-weight: 800;
   z-index: 5;
   width: 14ch;
@@ -168,8 +169,8 @@
 
 .mainScore {
   all: unset;
-  font-size: 4rem;
-  font-size: clamp(4rem, 3.6rem + 2vw, 6rem);
+  font-size: 3.5rem;
+  font-size: clamp(3.5rem, 3rem + 2.5vw, 6rem);
   font-weight: 800;
   z-index: 5;
   width: 5ch;
@@ -187,8 +188,8 @@
 }
 
 .mainScoreTitle {
-  font-size: 1.25rem;
-  font-size: clamp(1.25rem, 1.15rem + 0.5vw, 1.75rem);
+  font-size: 1rem;
+  font-size: clamp(1rem, 0.85rem + 0.75vw, 1.75rem);
   font-weight: 500;
   z-index: 5;
 }
