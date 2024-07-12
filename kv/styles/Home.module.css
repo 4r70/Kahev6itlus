@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 6rem;
+  padding: 3rem;
   min-height: 100vh;
   background-color: #0d3b66;
   color: white;
@@ -35,7 +35,7 @@
   margin-bottom: 1rem;
   text-decoration: none;
   color: white;
-  width: 30ch;
+  width: 45ch;
   word-break: normal;
   transition: all .2s ease-in-out;
 }

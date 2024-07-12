@@ -1009,7 +1009,7 @@
             ]
         },
         {
-            "question": "Millised neist on jõusaaliharjutused?",
+            "question": "Jõusaaliharjutused",
             "answers": [
                 { "answer": "Bench press", "correct": true },
                 { "answer": "Ab press", "correct": false },
@@ -1036,7 +1036,7 @@
             ]
         },
         {
-            "question": "Millised neist on maailma pealinnad?",
+            "question": "Maailma pealinnad",
             "answers": [
                 {
                     "answer": "Rio de Janeiro",
@@ -1063,7 +1063,7 @@
             ]
         },
         {
-            "question": "Millised neist on päris maleavangud?",
+            "question": "Päris maleavangud",
             "answers": [
                 { "answer": "Fried liver attack", "correct": true },
                 { "answer": "Queen's gambit", "correct": true },
