@@ -6,16 +6,21 @@
   max-height: 100dvh;
   background-color: #0d3b66;
   color: white;
+  transition: all .4s ease-in-out;
 }
 
-.main > h1 {
+.koitBg {
+  background-color: #000;
+}
+
+.main>h1 {
   font-size: 2rem;
   font-size: clamp(2rem, 1.7rem + 1.5vw, 3.5rem);
   font-weight: 800;
   margin-bottom: 1rem;
 }
 
-.main > h2 {
+.main>h2 {
   font-size: 1.5rem;
   font-size: clamp(1.5rem, 1.2rem + 1.5vw, 2.5rem);
   font-weight: 600;
@@ -33,7 +38,7 @@
 .question {
   display: flex;
   flex-direction: column;
-  border-radius: 1rem;
+  border-radius: 1.25rem;
   border: 3px solid #fff;
   background-color: rgba(204, 218, 209, 0.2);
   font-size: 1.5rem;
@@ -50,4 +55,70 @@
 
 .question:hover {
   background-color: rgba(204, 218, 209, 0.4);
+}
+
+.toggleContainer {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  font-size: clamp(1rem, 0.95rem + 0.25vw, 1.25rem);
+  align-self: center;
+}
+
+.toggleContainerTitle {
+  margin-right: 1rem;
+  font-weight: 600;
+}
+
+.toggle {
+  position: relative;
+  display: inline-block;
+  width: calc(4rem + 6px);
+  height: calc(2rem + 6px);
+  z-index: 5;
+  margin: .5rem 1rem;
+}
+
+.toggle input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(204, 218, 209, 0.2);
+  border: 3px solid white;
+  -webkit-transition: .4s ease-in-out;
+  transition: .4s ease-in-out;
+  border-radius: 1rem;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  border-radius: 1rem;
+  height: 1.5rem;
+  width: 1.5rem;
+  left: 0.25rem;
+  bottom: 0.25rem;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.toggleInput:checked+.slider {
+  background-color: #000;
+}
+
+.toggleInput:checked+.slider:before {
+  -webkit-transform: translateX(2rem);
+  -ms-transform: translateX(2rem);
+  transform: translateX(2rem);
+  background-color: #ffa800;
 }

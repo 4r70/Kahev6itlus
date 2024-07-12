@@ -10,6 +10,10 @@
   color: white;
 }
 
+.koitBg {
+  background-color: #000;
+}
+
 .darken {
   background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
   position: fixed;
@@ -78,6 +82,28 @@
       hsl(333 100% 64% / 15%) 84% 84%,
       92%,
       hsl(333 100% 64% / 0%) 100%);
+}
+
+.koitTurn1 {
+  background-image: radial-gradient(farthest-corner circle at 0% 50% in srgb,
+      hsl(40 100% 50% / 80%) 0%,
+      40%,
+      hsl(40 100% 50% / 41%) 50% 50%,
+      69%,
+      hsl(40 100% 50% / 15%) 84% 84%,
+      92%,
+      hsl(40 100% 50% / 0%) 100%);
+}
+
+.koitTurn2 {
+  background-image: radial-gradient(farthest-corner circle at 100% 50% in srgb,
+      hsl(40 100% 50% / 80%) 0%,
+      40%,
+      hsl(40 100% 50% / 41%) 50% 50%,
+      69%,
+      hsl(40 100% 50% / 15%) 84% 84%,
+      92%,
+      hsl(40 100% 50% / 0%) 100%);
 }
 
 .centerColumn h1 {
@@ -215,6 +241,11 @@
   opacity: 0.9;
 }
 
+.pointsSwitchContainer {
+  display: flex;
+  align-items: center;
+}
+
 .pointsSwitchRow {
   display: flex;
   justify-content: center;
@@ -333,11 +364,6 @@
   .pointsSwitchTitle {
     margin-right: 0;
     margin-bottom: .25rem;
-  }
-
-  .pointsSwitchContainer {
-    display: flex;
-    align-items: center;
   }
 
   .commentRow {

@@ -3,8 +3,20 @@ import styles from "@/styles/Home.module.css";
 import Questions from "../public/questions.json";
 import Link from "next/link";
 
+import { useState, useEffect } from "react";
+import { useRouter } from "next/router";
+
 export default function Home() {
   console.log(Questions);
+  const [theme, setTheme] = useState("default");
+  const router = useRouter();
+
+  useEffect(() => {
+    if (router.isReady) {
+      const queryTheme = router.query.theme;
+      setTheme(queryTheme || "default");
+    }
+  }, [router.isReady]);
 
   return (
     <>
@@ -14,12 +26,29 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={styles.main}>
+      <main className={`${styles.main} ${theme === "KOIT" ? styles.koitBg : ""}`}>
         <h1>Kahevõitlus</h1>
+        <div className={styles.toggleContainer}>
+          <span className={styles.toggleContainerTitle}>Teema:</span>
+          Tavaline
+              <label className={styles.toggle}>
+                <input
+                  className={styles.toggleInput}
+                  type="checkbox"
+                  onChange={() => {
+                    setTheme((prev) => prev === "KOIT" ? "default" : "KOIT");
+                    router.push(`/?theme=${theme === "KOIT" ? "default" : "KOIT"}`);
+                  }}
+                  checked={theme === "KOIT"}
+                />
+                <span className={styles.slider}></span>
+              </label>
+              KOIT
+            </div>
         <h2>Vali küsimus</h2>
         <div className={styles.questions}>
           {Questions.questions.map((question) => (
-            <Link className={styles.question} key={question.question} href={`/${encodeURIComponent(question.question)}`}>
+            <Link className={styles.question} key={question.question} href={`/${encodeURIComponent(question.question)}?theme=${theme}`}>
               {question.question}
             </Link>
           ))}

@@ -9,6 +9,7 @@ import Head from "next/head";
 export default function Question() {
   const router = useRouter();
   const { question } = router.query;
+  const [theme, setTheme] = useState("default");
   const [player1, setPlayer1] = useState("");
   const [player2, setPlayer2] = useState("");
   const [score1, setScore1] = useState(0);
@@ -23,6 +24,8 @@ export default function Question() {
 
   useEffect(() => {
     if (router.isReady && question) {
+      const queryTheme = router.query.theme;
+      setTheme(queryTheme || "default");
       const questionData = Questions.questions.find(
         (q) => q.question === question
       );
@@ -118,9 +121,11 @@ export default function Question() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className={styles.main}>
+      <div className={`${styles.main} ${theme === "KOIT" ? styles.koitBg : ""}`}>
         <div className={styles.darken}></div>
-        {turn === 1 ? <div className={styles.turn1}></div> : null}
+        {turn === 1 ? (
+          <div className={`${styles.turn1} ${theme === "KOIT" ? styles.koitTurn1 : ""}`}></div>
+        ) : null}
         <div className={styles.leftColumn} onClick={() => setTurn(1)}>
           <div className={styles.pointsSwitchRow}>
             <div className={styles.pointsSwitchTitle}>Jagatavad punktid:</div>
@@ -131,8 +136,8 @@ export default function Question() {
                   className={styles.pointsSwitchInput}
                   type="checkbox"
                   id="pointsSwitchInput"
-                  onChange={(e) =>
-                    setScoreAdded((prev,) => (prev === 10 ? 30 : 10))
+                  onChange={() =>
+                    setScoreAdded((prev) => (prev === 10 ? 30 : 10))
                   }
                 />
                 <span className={styles.slider}></span>
@@ -160,7 +165,7 @@ export default function Question() {
         </div>
         <div className={styles.centerColumn}>
           <div className={styles.topRow}>
-            <button onClick={() => router.back()} className={styles.backButton}>
+            <button onClick={() => router.push({pathname: "/", query: {theme: theme}})} className={styles.backButton}>
               <Back className={styles.backIcon} width={40} height={40} />
             </button>
             <h1>{question}</h1>
@@ -186,7 +191,7 @@ export default function Question() {
             ))}
           </div>
         </div>
-        {turn === 2 ? <div className={styles.turn2}></div> : null}
+        {turn === 2 ? <div className={`${styles.turn2} ${theme === "KOIT" ? styles.koitTurn2 : ""}`}></div> : null}
         <div className={styles.rightColumn} onClick={() => setTurn(2)}>
           <div className={styles.commentRow}>
             {currentComment && (
