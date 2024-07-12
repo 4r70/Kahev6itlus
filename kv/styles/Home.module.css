@@ -102,7 +102,7 @@
 .slider:before {
   position: absolute;
   content: "";
-  border-radius: 1rem;
+  border-radius: calc(1rem - 6px);
   height: 1.5rem;
   width: 1.5rem;
   left: 0.25rem;
