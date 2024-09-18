@@ -221,61 +221,6 @@
             ]
         },
         {
-            "question": "Venture Capital ettevõtted/fondid",
-            "answers": [
-                {
-                    "answer": "Stratton Oakmont",
-                    "correct": false,
-                    "comment": "Wolf of Wall Street"
-                },
-                {
-                    "answer": "karma.vc",
-                    "correct": true,
-                    "comment": ""
-                },
-                {
-                    "answer": "Tera Ventures",
-                    "correct": true,
-                    "comment": ""
-                },
-                {
-                    "answer": "Change Ventures",
-                    "correct": true,
-                    "comment": ""
-                },
-                {
-                    "answer": "Plural",
-                    "correct": true,
-                    "comment": ""
-                },
-                {
-                    "answer": "Sequoia Capital",
-                    "correct": true,
-                    "comment": ""
-                },
-                {
-                    "answer": "Bernie Madoff",
-                    "correct": false,
-                    "comment": ""
-                },
-                {
-                    "answer": "Superangel",
-                    "correct": true,
-                    "comment": ""
-                },
-                {
-                    "answer": "Lift99",
-                    "correct": false,
-                    "comment": ""
-                },
-                {
-                    "answer": "Yolo Investments",
-                    "correct": true,
-                    "comment": ""
-                }
-            ]
-        },
-        {
             "question": "UNIXi käsud",
             "answers": [
                 {
@@ -374,7 +319,7 @@
                     "comment": "Man I Love Frogs"
                 },
                 {
-                    "answer": "NGR",
+                    "answer": "NRR",
                     "correct": false,
                     "comment": ""
                 },
@@ -586,7 +531,7 @@
                 {
                     "answer": "Rihanna",
                     "correct": true,
-                    "comment": ""
+                    "comment": "2008"
                 },
                 {
                     "answer": "Travis Scott",
@@ -661,7 +606,7 @@
             ]
         },
         {
-            "question": "Päris taimed (F)",
+            "question": "(Naljakad) päris taimed",
             "answers": [
                 { "answer": "Huulhein", "correct": true },
                 { "answer": "Tupp-villpea", "correct": true },
@@ -688,7 +633,7 @@
             ]
         },
         {
-            "question": "MLP tegelased (F)",
+            "question": "MLP tegelased",
             "answers": [
                 { "answer": "Videvikusära", "correct": true },
                 { "answer": "Õunarüüp", "correct": true },
@@ -707,7 +652,7 @@
             ]
         },
         {
-            "question": "Margus Linnamäe ettevõtted (F)",
+            "question": "Margus Linnamäe ettevõtted",
             "answers": [
                 { "answer": "Apotheka", "correct": true },
                 { "answer": "Piletilevi", "correct": true },
@@ -717,12 +662,12 @@
                 { "answer": "BNS", "correct": true },
                 { "answer": "Valge klaar/iDeal", "correct": true },
                 { "answer": "Solaris", "correct": false },
-                { "answer": "Burger king", "correct": false },
+                { "answer": "Burger King", "correct": false },
                 { "answer": "Kaubamaja", "correct": false }
             ]
         },
         {
-            "question": "Rahvatantsusammud ja -võtted (F)",
+            "question": "Rahvatantsusammud ja -võtted",
             "answers": [
                 {
                     "answer": "Vasak tiiselvõte",
@@ -745,7 +690,7 @@
             ]
         },
         {
-            "question": "Pastasordid (F)",
+            "question": "Pastasordid",
             "answers": [
                 {
                     "answer": "Cellentani",
@@ -862,29 +807,6 @@
             ]
         },
         {
-            "question": "HTG vilistlased",
-            "answers": [
-                { "answer": "Aigar Vaigu", "correct": true },
-                { "answer": "Taavi Kotka", "correct": true },
-                { "answer": "Rolf Roosalu", "correct": true },
-                { "answer": "Oskar Luts", "correct": false },
-                {
-                    "answer": "Jaak Aaviksoo",
-                    "correct": false,
-                    "comment": "MHG vilistlane"
-                },
-                { "answer": "Anton Hansen Tammsaare", "correct": true },
-                { "answer": "Sander Õigus", "correct": true },
-                {
-                    "answer": "Alar Karis",
-                    "correct": false,
-                    "comment": "MHG vilistlane"
-                },
-                { "answer": "Friedebert Tuglas", "correct": true },
-                { "answer": "Hando Runnel", "correct": true }
-            ]
-        },
-        {
             "question": "Discgolfi visked",
             "answers": [
                 { "answer": "Push putt", "correct": true },
@@ -970,7 +892,7 @@
             ]
         },
         {
-            "question": "(Botaanilises mõttes) puuviljad (F)",
+            "question": "(Botaanilises mõttes) puuviljad",
             "answers": [
                 {
                     "answer": "Maasikas",
@@ -1002,7 +924,7 @@
                 {
                     "answer": "Kartul",
                     "correct": false,
-                    "comment": "juurvili ikkagi, aga sellel on ka maa peal kasvavad viljad"
+                    "comment": "juurvili, aga sellel on ka maa peal kasvavad viljad"
                 },
                 { "answer": "Paprika", "correct": true },
                 { "answer": "Oliivid", "correct": true }
@@ -1058,7 +980,7 @@
                     "comment": "Lõuna-Korea"
                 },
                 { "answer": "Lima", "correct": true, "comment": "Peruu" },
-                { "answer": "Kaplinn", "correct": true, "comment": "LAV" },
+                { "answer": "Kaplinn", "correct": true, "comment": "LAV, üks kolmest" },
                 { "answer": "New Delhi", "correct": true, "comment": "India" }
             ]
         },
