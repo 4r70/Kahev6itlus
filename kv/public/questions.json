@@ -980,7 +980,11 @@
                     "comment": "Lõuna-Korea"
                 },
                 { "answer": "Lima", "correct": true, "comment": "Peruu" },
-                { "answer": "Kaplinn", "correct": true, "comment": "LAV, üks kolmest" },
+                {
+                    "answer": "Kaplinn",
+                    "correct": true,
+                    "comment": "LAV, üks kolmest"
+                },
                 { "answer": "New Delhi", "correct": true, "comment": "India" }
             ]
         },
@@ -1004,6 +1008,455 @@
                 { "answer": "Meteor attack", "correct": false },
                 { "answer": "Pheonix gambit", "correct": false },
                 { "answer": "New York gambit", "correct": false }
+            ]
+        },
+        {
+            "question": "Millised neist on F1 maailmameistrid?",
+            "answers": [
+                {
+                    "answer": "Michael Schumacher",
+                    "correct": true,
+                    "comment": "1994, 1995, 2000, 2001, 2002, 2003, 2004"
+                },
+                {
+                    "answer": "Lewis Hamilton",
+                    "correct": true,
+                    "comment": "2008, 2014, 2015, 2017, 2018, 2019, 2020"
+                },
+                {
+                    "answer": "Sebastian Vettel",
+                    "correct": true,
+                    "comment": "2010, 2011, 2012, 2013"
+                },
+                {
+                    "answer": "Niki Laudda",
+                    "correct": true,
+                    "comment": "1975, 1977, 1984"
+                },
+                {
+                    "answer": "Ayrton Senna",
+                    "correct": true,
+                    "comment": "1988, 1990, 1991"
+                },
+                {
+                    "answer": "Max Verstappen",
+                    "correct": true,
+                    "comment": "2021, 2022, 2023"
+                },
+                {
+                    "answer": "Mika Häkkinen",
+                    "correct": true,
+                    "comment": "1998, 1999"
+                },
+                {
+                    "answer": "Marko Asmer",
+                    "correct": false,
+                    "comment": "Oli vaid testsõitja BMWs"
+                },
+                { "answer": "Mark Webber", "correct": false, "comment": "" },
+                { "answer": "Charles Leclerc", "correct": false, "comment": "" }
+            ]
+        },
+        {
+            "question": "Millised neist on saareriigid?",
+            "answers": [
+                { "answer": "Küpros", "correct": true, "comment": "Vahemeri" },
+                {
+                    "answer": "Madagaskar",
+                    "correct": true,
+                    "comment": "Aafrikast idas"
+                },
+                {
+                    "answer": "Jamaica",
+                    "correct": true,
+                    "comment": "Kariibimeres"
+                },
+                { "answer": "Fidži", "correct": true, "comment": "Okeaania" },
+                {
+                    "answer": "Grenada",
+                    "correct": true,
+                    "comment": "Kariibimeres"
+                },
+                {
+                    "answer": "Filipiinid",
+                    "correct": true,
+                    "comment": "Hiinast kagus"
+                },
+                {
+                    "answer": "Sri Lanka",
+                    "correct": true,
+                    "comment": "Indiast lõunas"
+                },
+                {
+                    "answer": "Monaco",
+                    "correct": false,
+                    "comment": "Pisiriik Prantsusmaa külje all"
+                },
+                {
+                    "answer": "Austraalia",
+                    "correct": false,
+                    "comment": "See on manner"
+                },
+                {
+                    "answer": "Costa Rica",
+                    "correct": false,
+                    "comment": "Kesk-Ameerika"
+                }
+            ]
+        },
+        {
+            "question": "Millised neist on otsingumootorid?",
+            "answers": [
+                {
+                    "answer": "DuckDuckGo",
+                    "correct": true,
+                    "comment": "Privaatne"
+                },
+                {
+                    "answer": "Perplexity",
+                    "correct": true,
+                    "comment": "AI-powered"
+                },
+                { "answer": "Yahoo", "correct": true, "comment": "" },
+                {
+                    "answer": "Ecosia",
+                    "correct": true,
+                    "comment": "Istutavad puid, keskkonnasõbralik"
+                },
+                {
+                    "answer": "Brave",
+                    "correct": true,
+                    "comment": "Privaatne, ad-free, turvaline"
+                },
+                { "answer": "Baidu", "correct": true, "comment": "Hiina" },
+                { "answer": "Yandex", "correct": true, "comment": "Venemaa" },
+                { "answer": "Firefox", "correct": false, "comment": "brauser" },
+                {
+                    "answer": "Trip",
+                    "correct": false,
+                    "comment": "safari sünonüüm:)"
+                },
+                {
+                    "answer": "Ubuntu",
+                    "correct": false,
+                    "comment": "operatsioonisüsteem"
+                }
+            ]
+        },
+        {
+            "question": "Millised neist on brauserid?",
+            "answers": [
+                {
+                    "answer": "Ladybird",
+                    "correct": true,
+                    "comment": "2026 saab hakata kasutama, MTÜ poolt rahastatud"
+                },
+                {
+                    "answer": "Vivaldi",
+                    "correct": true,
+                    "comment": "Opera asutaja poolt tehtud"
+                },
+                { "answer": "Brave", "correct": true, "comment": "" },
+                { "answer": "Opera", "correct": true, "comment": "" },
+                { "answer": "Arc", "correct": true, "comment": "Uus ja ilus" },
+                {
+                    "answer": "Zen",
+                    "correct": true,
+                    "comment": "Uus ja ilus, Firefoxil põhinev"
+                },
+                { "answer": "Tor", "correct": true, "comment": "" },
+                {
+                    "answer": "Zed",
+                    "correct": false,
+                    "comment": "Koodiredaktor"
+                },
+                {
+                    "answer": "Miugumaugu",
+                    "correct": false,
+                    "comment": "Soome keeles @💀"
+                },
+                {
+                    "answer": "Ringo",
+                    "correct": false,
+                    "comment": "Ringo pakendid"
+                }
+            ]
+        },
+        {
+            "question": "Millised neist on top 20 IMDB reitinguga filmid?",
+            "answers": [
+                {
+                    "answer": "The Shawshank Redemption",
+                    "correct": true,
+                    "comment": "1"
+                },
+                { "answer": "The Godfather", "correct": true, "comment": "2" },
+                {
+                    "answer": "The Godfather 2",
+                    "correct": true,
+                    "comment": "4"
+                },
+                { "answer": "Fight Club", "correct": true, "comment": "13" },
+                { "answer": "Inception", "correct": true, "comment": "14" },
+                {
+                    "answer": "The Dark Knight",
+                    "correct": true,
+                    "comment": "3"
+                },
+                { "answer": "The Matrix", "correct": true, "comment": "16" },
+                { "answer": "Wall-E", "correct": false, "comment": "58" },
+                {
+                    "answer": "The Exorcist",
+                    "correct": false,
+                    "comment": "227"
+                },
+                { "answer": "Parasite", "correct": false, "comment": "33" }
+            ]
+        },
+        {
+            "question": "Millised neist on Nolani filmid?",
+            "answers": [
+                { "answer": "Inception", "correct": true, "comment": "" },
+                { "answer": "Oppenheimer", "correct": true, "comment": "" },
+                { "answer": "Interstellar", "correct": true, "comment": "" },
+                { "answer": "Dunkirk", "correct": true, "comment": "" },
+                { "answer": "Memento", "correct": true, "comment": "" },
+                { "answer": "The Dark Knight", "correct": true, "comment": "" },
+                {
+                    "answer": "The Dark Knight Rises",
+                    "correct": true,
+                    "comment": ""
+                },
+                {
+                    "answer": "Batman v Superman",
+                    "correct": false,
+                    "comment": "Snyder"
+                },
+                {
+                    "answer": "Once Upon a Time in... Hollywood",
+                    "correct": false,
+                    "comment": "Tarantino"
+                },
+                {
+                    "answer": "Pulp fiction",
+                    "correct": false,
+                    "comment": "Tarantino"
+                }
+            ]
+        },
+        {
+            "question": "Millised neist on programmeerimiskeeled?",
+            "answers": [
+                {
+                    "answer": "Dart",
+                    "correct": true,
+                    "comment": "Google'i oma"
+                },
+                {
+                    "answer": "COW",
+                    "correct": true,
+                    "comment": "MoO MoO MoO MoO MoO MoO MoO"
+                },
+                {
+                    "answer": "Brainfuck",
+                    "correct": true,
+                    "comment": "++++++++[>++++[>++>+++>+++>+<<<<-]>+>+>->>+[<]<-]>>.>---.+++++++..+++.>>.<-.<.+++.------.--------.>>+.>++."
+                },
+                {
+                    "answer": "Kotlin",
+                    "correct": true,
+                    "comment": "Google'i android dev keel"
+                },
+                {
+                    "answer": "Haskell",
+                    "correct": true,
+                    "comment": "Funktsionaalne programmeerimiskeel"
+                },
+                { "answer": "Elixir", "correct": true, "comment": "" },
+                {
+                    "answer": "Lua",
+                    "correct": true,
+                    "comment": "Roblox kasutab Luast derivetud Luau keelt"
+                },
+                { "answer": "Arrow", "correct": false, "comment": "" },
+                { "answer": "Pythonscript", "correct": false, "comment": "" },
+                {
+                    "answer": "Cobble",
+                    "correct": false,
+                    "comment": "Cobblestone, COBOL on olemas"
+                }
+            ]
+        },
+        {
+            "question": "Millised neist on Eesti startupid, kaasanud raha 2024?",
+            "answers": [
+                {
+                    "answer": "Bolt",
+                    "correct": true,
+                    "comment": "220 mln krediiti, mai 2024"
+                },
+                {
+                    "answer": "Starship technologies",
+                    "correct": true,
+                    "comment": "90 mln, veebr 2024"
+                },
+                {
+                    "answer": "Pactum",
+                    "correct": true,
+                    "comment": "20 mln, jul 2024"
+                },
+                {
+                    "answer": "Planet42",
+                    "correct": true,
+                    "comment": "3 mln, mär 2024 rip money🗿"
+                },
+                {
+                    "answer": "Elcogen",
+                    "correct": true,
+                    "comment": "30 mln, apr 2024"
+                },
+                {
+                    "answer": "Glassity",
+                    "correct": true,
+                    "comment": "450k veeb 2024"
+                },
+                {
+                    "answer": "Tuum",
+                    "correct": true,
+                    "comment": "25 mln, veeb 2024"
+                },
+                {
+                    "answer": "Veriff",
+                    "correct": false,
+                    "comment": "viimati jaan 2022, 89 mln"
+                },
+                {
+                    "answer": "Koos (.io)",
+                    "correct": false,
+                    "comment": "viimati aprill 2022, 4 mln"
+                },
+                {
+                    "answer": "Skeleton technologies",
+                    "correct": false,
+                    "comment": "viimati okt 2023, 108 mln"
+                }
+            ]
+        },
+        {
+            "question": "Millised neist on Ajujahi võitjad?",
+            "answers": [
+                {
+                    "answer": "Taxify (Bolt)",
+                    "correct": true,
+                    "comment": "2014. a"
+                },
+                {
+                    "answer": "Münt (Others)",
+                    "correct": true,
+                    "comment": "2021. a"
+                },
+                { "answer": "FoodDocs", "correct": true, "comment": "2018. a" },
+                {
+                    "answer": "Click n Grow",
+                    "correct": true,
+                    "comment": "2010. a"
+                },
+                { "answer": "Kiud", "correct": true, "comment": "2023. a" },
+                { "answer": "Timey", "correct": true, "comment": "2019. a" },
+                { "answer": "Complok", "correct": true, "comment": "2022. a" },
+                { "answer": "Saunum", "correct": false, "comment": "" },
+                { "answer": "Klaus", "correct": false, "comment": "" },
+                { "answer": "BoxBox", "correct": false, "comment": "" }
+            ]
+        },
+        {
+            "question": "Kes neist on olnud Eesti Haridusministrid?",
+            "answers": [
+                {
+                    "answer": "Mailis Reps",
+                    "correct": true,
+                    "comment": "2002-2003, 2005 - 2007, 2016-2020"
+                },
+                {
+                    "answer": "Jürgen Ligi",
+                    "correct": true,
+                    "comment": "2015-2016"
+                },
+                {
+                    "answer": "Tõnis Lukas",
+                    "correct": true,
+                    "comment": "1999-2002, 2007-2011"
+                },
+                { "answer": "Peeter Põld", "correct": true, "comment": "1918" },
+                {
+                    "answer": "Konstantin Treffner",
+                    "correct": true,
+                    "comment": "1919-1920"
+                },
+                {
+                    "answer": "Kristina Kallas",
+                    "correct": true,
+                    "comment": "2023 -"
+                },
+                {
+                    "answer": "Jaak Aaviksoo",
+                    "correct": true,
+                    "comment": "1995-1996, 2011-2014"
+                },
+                { "answer": "Kert Kingo", "correct": false, "comment": "" },
+                { "answer": "Urmas Kruuse", "correct": false, "comment": "" },
+                { "answer": "Lennart Meri", "correct": false, "comment": "" }
+            ]
+        },
+        {
+            "question": "Kelle nimelisi koole on Eestis?",
+            "answers": [
+                {
+                    "answer": "Aleksander Puškin",
+                    "correct": true,
+                    "comment": "Tartu Aleksander Puškini Kool"
+                },
+                {
+                    "answer": "Anna Haava",
+                    "correct": true,
+                    "comment": "Anna Haava nimeline Pala Kool"
+                },
+                {
+                    "answer": "Oskar Luts",
+                    "correct": true,
+                    "comment": "Oskar Lutsu nimeline Palamuse Põhikool"
+                },
+                {
+                    "answer": "Johannes Voldemar Veski",
+                    "correct": true,
+                    "comment": "J. V. Veski nim Maarja-Magdaleena Põhikool"
+                },
+                {
+                    "answer": "Kristjan Jaak Peterson",
+                    "correct": true,
+                    "comment": "Tartu Kristjan Jaak Petersoni Gümnaasium"
+                },
+                {
+                    "answer": "Konstantin Päts",
+                    "correct": true,
+                    "comment": "Tallinna Konstantin Pätsi Vabaõhukool"
+                },
+                {
+                    "answer": "Juhan Liiv",
+                    "correct": true,
+                    "comment": "Juhan Liivi nimeline Alatskivi Kool"
+                },
+                {
+                    "answer": "Gustav Ernesaks",
+                    "correct": false,
+                    "comment": ""
+                },
+                { "answer": "Marie Under", "correct": false, "comment": "" },
+                {
+                    "answer": "Julius Kuperjanov",
+                    "correct": false,
+                    "comment": ""
+                }
             ]
         }
     ]
