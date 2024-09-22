@@ -1011,7 +1011,7 @@
             ]
         },
         {
-            "question": "Millised neist on F1 maailmameistrid?",
+            "question": "F1 maailmameistrid",
             "answers": [
                 {
                     "answer": "Michael Schumacher",
@@ -1058,7 +1058,7 @@
             ]
         },
         {
-            "question": "Millised neist on saareriigid?",
+            "question": "Saareriigid",
             "answers": [
                 { "answer": "Küpros", "correct": true, "comment": "Vahemeri" },
                 {
@@ -1105,7 +1105,7 @@
             ]
         },
         {
-            "question": "Millised neist on otsingumootorid?",
+            "question": "Otsingumootorid",
             "answers": [
                 {
                     "answer": "DuckDuckGo",
@@ -1144,7 +1144,7 @@
             ]
         },
         {
-            "question": "Millised neist on brauserid?",
+            "question": "Brauserid",
             "answers": [
                 {
                     "answer": "Ladybird",
@@ -1183,7 +1183,7 @@
             ]
         },
         {
-            "question": "Millised neist on top 20 IMDB reitinguga filmid?",
+            "question": "Top 20 IMDB reitinguga filmid",
             "answers": [
                 {
                     "answer": "The Shawshank Redemption",
@@ -1214,7 +1214,7 @@
             ]
         },
         {
-            "question": "Millised neist on Nolani filmid?",
+            "question": "Nolani filmid",
             "answers": [
                 { "answer": "Inception", "correct": true, "comment": "" },
                 { "answer": "Oppenheimer", "correct": true, "comment": "" },
@@ -1245,7 +1245,7 @@
             ]
         },
         {
-            "question": "Millised neist on programmeerimiskeeled?",
+            "question": "Programmeerimis\u00ADkeeled",
             "answers": [
                 {
                     "answer": "Dart",
@@ -1288,7 +1288,7 @@
             ]
         },
         {
-            "question": "Millised neist on Eesti startupid, kaasanud raha 2024?",
+            "question": "2024 raha kaasanud Eesti startupid",
             "answers": [
                 {
                     "answer": "Bolt",
@@ -1343,7 +1343,7 @@
             ]
         },
         {
-            "question": "Millised neist on Ajujahi võitjad?",
+            "question": "Ajujahi võitjad",
             "answers": [
                 {
                     "answer": "Taxify (Bolt)",
@@ -1370,7 +1370,7 @@
             ]
         },
         {
-            "question": "Kes neist on olnud Eesti Haridusministrid?",
+            "question": "Eesti haridusministrid",
             "answers": [
                 {
                     "answer": "Mailis Reps",
@@ -1409,7 +1409,7 @@
             ]
         },
         {
-            "question": "Kelle nimelisi koole on Eestis?",
+            "question": "Nimelised koolid Eestis",
             "answers": [
                 {
                     "answer": "Aleksander Puškin",

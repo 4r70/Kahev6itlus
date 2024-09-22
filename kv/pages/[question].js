@@ -96,7 +96,9 @@ export default function Question() {
   }
 
   function revealAllAnswers() {
-    setRevealed(Array(10).fill(true));
+    setTimeout(() => {
+      setRevealed(Array(10).fill(true));
+    }, 750);
   }
 
   function resetAll() {
