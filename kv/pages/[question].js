@@ -21,6 +21,18 @@ export default function Question() {
   const [guessWrongAnswers, setGuessWrongAnswers] = useState(0);
   const [shuffledAnswers, setShuffledAnswers] = useState([]);
   const [currentComment, setCurrentComment] = useState("");
+  const [correctAudio, setCorrectAudio] = useState(null);
+  const [incorrectAudio, setIncorrectAudio] = useState(null);
+  const [allDoneAudio, setAllDoneAudio] = useState(null);
+
+  useEffect(() => {
+    // Check if the window is available and then set up audio objects
+    if (typeof window !== "undefined") {
+      setCorrectAudio(new Audio('./correct.mp3'));
+      setIncorrectAudio(new Audio('./incorrect.mp3'));
+      setAllDoneAudio(new Audio('./all.mp3'));
+    }
+  }, []);
 
   useEffect(() => {
     if (router.isReady && question) {
@@ -49,13 +61,13 @@ export default function Question() {
   ).length;
 
   function showAnswer(answer, index) {
-    console.log(answer.correct);
     const updatedRevealed = [...revealed];
     updatedRevealed[index] = true;
     setRevealed(updatedRevealed);
     setCurrentComment(answer.comment);
 
     if (answer.correct) {
+      correctAudio.play();
       setGuessedCorrectAnswers((prev) => prev + 1);
       checkRemainingAnswers("correct");
       if (turn === 1) {
@@ -64,6 +76,7 @@ export default function Question() {
         setScore2((prev) => prev + scoreAdded);
       }
     } else {
+      incorrectAudio.play();
       setGuessWrongAnswers((prev) => prev + 1);
       checkRemainingAnswers("incorrect");
       if (turn === 1) {
@@ -97,8 +110,9 @@ export default function Question() {
 
   function revealAllAnswers() {
     setTimeout(() => {
+      allDoneAudio.play();
       setRevealed(Array(10).fill(true));
-    }, 750);
+    }, 1000);
   }
 
   function resetAll() {
@@ -167,7 +181,7 @@ export default function Question() {
         </div>
         <div className={styles.centerColumn}>
           <div className={styles.topRow}>
-            <button onClick={() => router.push({pathname: "/", query: {theme: theme}})} className={styles.backButton}>
+            <button onClick={() => router.push({ pathname: "/", query: { theme: theme } })} className={styles.backButton}>
               <Back className={styles.backIcon} width={40} height={40} />
             </button>
             <h1>{question}</h1>
