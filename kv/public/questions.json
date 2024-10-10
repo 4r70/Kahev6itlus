@@ -1147,9 +1147,9 @@
             "question": "Brauserid",
             "answers": [
                 {
-                    "answer": "Ladybird",
+                    "answer": "WorldWideWeb",
                     "correct": true,
-                    "comment": "2026 saab hakata kasutama, MTÜ poolt rahastatud"
+                    "comment": "Esimene brauser"
                 },
                 {
                     "answer": "Vivaldi",
