@@ -657,7 +657,7 @@
                 { "answer": "Apotheka", "correct": true },
                 { "answer": "Piletilevi", "correct": true },
                 { "answer": "Postimees", "correct": true },
-                { "answer": "Pet city", "correct": true },
+                { "answer": "MyHits", "correct": true },
                 { "answer": "Lido", "correct": true },
                 { "answer": "BNS", "correct": true },
                 { "answer": "Valge klaar/iDeal", "correct": true },
@@ -1457,6 +1457,447 @@
                     "correct": false,
                     "comment": ""
                 }
+            ]
+        },
+        {
+            "question": "Mõõtühikud",
+            "answers": [
+                {
+                    "answer": "Luks",
+                    "correct": true,
+                    "comment": "Valgustihedus"
+                },
+                {
+                    "answer": "Kandela",
+                    "correct": true,
+                    "comment": "Valgustugevus"
+                },
+                {
+                    "answer": "Jotameeter",
+                    "correct": true,
+                    "comment": "Pikkus"
+                },
+                {
+                    "answer": "Astronoomiline ühik",
+                    "correct": true,
+                    "comment": "Pikkus"
+                },
+                {
+                    "answer": "Siivert",
+                    "correct": true,
+                    "comment": "Radiatsioon"
+                },
+                { "answer": "Paskal", "correct": true, "comment": "Rõhk" },
+                {
+                    "answer": "Farad",
+                    "correct": true,
+                    "comment": "Elektrimahtuvus"
+                },
+                {
+                    "answer": "Kalorimeeter",
+                    "correct": false,
+                    "comment": "Seade soojuse mõõtmiseks"
+                },
+                {
+                    "answer": "Entroopia",
+                    "correct": false,
+                    "comment": "Füüsikaline suurus, mitte mõõtühik"
+                },
+                {
+                    "answer": "Kontsentratsioon",
+                    "correct": false,
+                    "comment": "Vahekorra suurus, mitte mõõtühik"
+                }
+            ]
+        },
+        {
+            "question": "TOP10 enim müüdud videomängud",
+            "answers": [
+                {
+                    "answer": "Minecraft",
+                    "correct": true,
+                    "comment": "2. koht, 300 milj."
+                },
+                {
+                    "answer": "GTA V",
+                    "correct": true,
+                    "comment": "3. koht, 200 milj."
+                },
+                {
+                    "answer": "Wii Sports",
+                    "correct": true,
+                    "comment": "4. koht, 82,9 milj."
+                },
+                {
+                    "answer": "PUBG: Battlegrounds",
+                    "correct": true,
+                    "comment": "5. koht, 75 milj."
+                },
+                {
+                    "answer": "Tetris",
+                    "correct": true,
+                    "comment": "1. koht, 520 milj."
+                },
+                {
+                    "answer": "Terraria",
+                    "correct": true,
+                    "comment": "9. koht, 58,7 milj."
+                },
+                {
+                    "answer": "Mario Kart 8 / Deluxe",
+                    "correct": true,
+                    "comment": "6. koht, 70,43 milj."
+                },
+                {
+                    "answer": "Mario Kart Wii",
+                    "correct": false,
+                    "comment": "37,4 milj."
+                },
+                {
+                    "answer": "Pokémon Red / Green / Blue / Yellow",
+                    "correct": false,
+                    "comment": "47,5 milj."
+                },
+                {
+                    "answer": "FIFA 18",
+                    "correct": false,
+                    "comment": "26,4 milj."
+                }
+            ]
+        },
+        {
+            "question": "Nakkushaigused",
+            "answers": [
+                { "answer": "Ohatis", "correct": true },
+                { "answer": "Malaaria", "correct": true },
+                { "answer": "Puukentsefaliit", "correct": true },
+                { "answer": "Marutaud", "correct": true },
+                { "answer": "Koolera", "correct": true },
+                { "answer": "Teetanus", "correct": true },
+                { "answer": "Tuberkuloos", "correct": true },
+                { "answer": "Ekseem", "correct": false },
+                { "answer": "Diabeet", "correct": false },
+                { "answer": "Atoopiline dermatiit", "correct": false }
+            ]
+        },
+        {
+            "question": "Eesti IT-firmad",
+            "answers": [
+                { "answer": "Helmes", "correct": true },
+                { "answer": "Lightyear", "correct": true },
+                { "answer": "Toggl Track (Toggl)", "correct": true },
+                { "answer": "Grünfin", "correct": true },
+                { "answer": "Erply", "correct": true },
+                { "answer": "Featurebase", "correct": true },
+                { "answer": "Glia", "correct": true },
+                { "answer": "CGI", "correct": false, "comment": "Kanadast" },
+                {
+                    "answer": "Tidal",
+                    "correct": false,
+                    "comment": "Norrast-Ameerikast"
+                },
+                { "answer": "Nokia", "correct": false }
+            ]
+        },
+        {
+            "question": "Mõõteseadmed",
+            "answers": [
+                {
+                    "answer": "Kaliper",
+                    "correct": true,
+                    "comment": "Väikeste suuruste mõõtmiseks"
+                },
+                {
+                    "answer": "Hügromeeter",
+                    "correct": true,
+                    "comment": "Niiskuse mõõtmiseks"
+                },
+                {
+                    "answer": "Tensiomeeter",
+                    "correct": true,
+                    "comment": "Vererõhu mõõtmiseks"
+                },
+                {
+                    "answer": "Manomeeter",
+                    "correct": true,
+                    "comment": "Rõhu mõõtmiseks"
+                },
+                {
+                    "answer": "Tahhomeeter",
+                    "correct": true,
+                    "comment": "Pöörete mõõtmiseks"
+                },
+                {
+                    "answer": "Kalorimeeter",
+                    "correct": true,
+                    "comment": "Soojusenergia mõõtmiseks"
+                },
+                {
+                    "answer": "Teodoliit",
+                    "correct": true,
+                    "comment": "Nurkade mõõtmiseks, kasutatakse geodeesias ja ehituses"
+                },
+                {
+                    "answer": "Femtomeeter",
+                    "correct": false,
+                    "comment": "0,000 000 000 000 001 m"
+                },
+                { "answer": "Abakus", "correct": false, "comment": "Arvelaud" },
+                { "answer": "Kaleidoskoop", "correct": false }
+            ]
+        },
+        {
+            "question": "WC-paberi firmad",
+            "answers": [
+                { "answer": "Zewa", "correct": true },
+                { "answer": "Serla", "correct": true },
+                { "answer": "Lotus", "correct": true },
+                { "answer": "Grite", "correct": true },
+                { "answer": "Lambi", "correct": true },
+                { "answer": "Renova", "correct": true },
+                { "answer": "Daisy", "correct": true },
+                { "answer": "Mr. Wipe", "correct": false },
+                { "answer": "Brat", "correct": false },
+                {
+                    "answer": "Huggies",
+                    "correct": false,
+                    "comment": "Mähkmed, niisked salvrätikud"
+                }
+            ]
+        },
+        {
+            "question": "Marmorehitised",
+            "answers": [
+                { "answer": "Taj Mahal", "correct": true },
+                { "answer": "Washingtoni monument", "correct": true },
+                { "answer": "Milano toomkirik", "correct": true },
+                { "answer": "Rooma Panteon", "correct": true },
+                { "answer": "Parthenon", "correct": true },
+                { "answer": "USA Ülekohtu hoone", "correct": true },
+                { "answer": "Colosseum", "correct": true },
+                {
+                    "answer": "Cheopsi püramiid",
+                    "correct": false,
+                    "comment": "Lubjakivi"
+                },
+                {
+                    "answer": "Golden Gate Bridge",
+                    "correct": false,
+                    "comment": "Teras"
+                },
+                {
+                    "answer": "Sydney ooperimaja",
+                    "correct": false,
+                    "comment": "Betoon"
+                }
+            ]
+        },
+        {
+            "question": "Tartu linnaosad",
+            "answers": [
+                { "answer": "Karlova", "correct": true },
+                { "answer": "Tammelinn", "correct": true },
+                { "answer": "Variku", "correct": true },
+                { "answer": "Ropka", "correct": true },
+                { "answer": "Ülejõe", "correct": true },
+                { "answer": "Maarjamõisa", "correct": true },
+                { "answer": "Ihaste", "correct": true },
+                { "answer": "Ülenurme", "correct": false },
+                { "answer": "Kivilinn", "correct": false },
+                { "answer": "Riiamäe", "correct": false }
+            ]
+        },
+        {
+            "question": "Maismaapiir Venemaaga",
+            "answers": [
+                { "answer": "Norra", "correct": true },
+                { "answer": "Põhja-Korea", "correct": true },
+                { "answer": "Mongoolia", "correct": true },
+                { "answer": "Gruusia", "correct": true },
+                { "answer": "Kasahstan", "correct": true },
+                { "answer": "Aserbaidžaan", "correct": true },
+                { "answer": "Poola", "correct": true },
+                { "answer": "Kõrgõzstan", "correct": false },
+                { "answer": "Armeenia", "correct": false },
+                { "answer": "Jaapan", "correct": false }
+            ]
+        },
+        {
+            "question": "Metallid perioodilisustabelis",
+            "answers": [
+                { "answer": "Li", "correct": true, "comment": "Liitium" },
+                { "answer": "Na", "correct": true, "comment": "Naatrium" },
+                { "answer": "Mg", "correct": true, "comment": "Magneesium" },
+                { "answer": "Au", "correct": true, "comment": "Kuld" },
+                { "answer": "Cu", "correct": true, "comment": "Vask" },
+                { "answer": "Ni", "correct": true, "comment": "Nikkel" },
+                { "answer": "Th", "correct": true, "comment": "Toorium" },
+                {
+                    "answer": "Ai",
+                    "correct": false,
+                    "comment": "Tehisintellekt"
+                },
+                { "answer": "Rn", "correct": false, "comment": "Radoon, gaas" },
+                {
+                    "answer": "Cl",
+                    "correct": false,
+                    "comment": "Kloor, mittemetall"
+                }
+            ]
+        },
+        {
+            "question": "JetBrainsi tooted",
+            "answers": [
+                {
+                    "answer": "WebStorm",
+                    "correct": true,
+                    "comment": "JS ja TS"
+                },
+                { "answer": "PhpStorm", "correct": true, "comment": "PHP" },
+                {
+                    "answer": "DataGrip",
+                    "correct": true,
+                    "comment": "Databases"
+                },
+                {
+                    "answer": "DataSpell",
+                    "correct": true,
+                    "comment": "Data-analysis, low-code"
+                },
+                { "answer": "Rider", "correct": true, "comment": ".NET, C#" },
+                { "answer": "CLion", "correct": true, "comment": "C/C++" },
+                {
+                    "answer": "Aqua",
+                    "correct": true,
+                    "comment": "Java, Kotlin"
+                },
+                {
+                    "answer": "Sublime Text",
+                    "correct": false,
+                    "comment": ""
+                },
+                {
+                    "answer": "Visual Basic",
+                    "correct": false,
+                    "comment": "Microsofti toode"
+                },
+                {
+                    "answer": "Visual studio",
+                    "correct": false,
+                    "comment": "Microsofti toode"
+                }
+            ]
+        },
+        {
+            "question": "Füüsika tähised",
+            "answers": [
+                {
+                    "answer": "μ (müü)",
+                    "correct": true,
+                    "comment": "hõõrdetegur, keemiline potentsiaal"
+                },
+                {
+                    "answer": "λ (lambda)",
+                    "correct": true,
+                    "comment": "lainepikkus, soojusjuhtivus"
+                },
+                {
+                    "answer": "ω (oomega)",
+                    "correct": true,
+                    "comment": "ringsagedus"
+                },
+                {
+                    "answer": "σ (sigma)",
+                    "correct": true,
+                    "comment": "mehaaniline pinge, pindpinevustegur"
+                },
+                {
+                    "answer": "c",
+                    "correct": true,
+                    "comment": "valguse kiirus vaakumis"
+                },
+                {
+                    "answer": "g",
+                    "correct": true,
+                    "comment": "gravitatsioonikonstant"
+                },
+                { "answer": "F", "correct": true, "comment": "jõud" },
+                {
+                    "answer": "r",
+                    "correct": false,
+                    "comment": "matemaatikas raadius"
+                },
+                {
+                    "answer": "θ (teeta)",
+                    "correct": false,
+                    "comment": "matemaatika"
+                },
+                { "answer": "Z", "correct": false, "comment": "pole tähendust" }
+            ]
+        },
+        {
+            "question": "Sai ja saialaadsed",
+            "answers": [
+                { "answer": "Perenaise", "correct": true },
+                { "answer": "Tosta", "correct": true },
+                { "answer": "Kuldne", "correct": true },
+                { "answer": "Kirde", "correct": true },
+                { "answer": "Hea", "correct": true },
+                { "answer": "Röst", "correct": true },
+                {
+                    "answer": "Parim päts",
+                    "correct": true,
+                    "comment": "Nii sai kui leib"
+                },
+                {
+                    "answer": "Peremehe",
+                    "correct": false,
+                    "comment": "rukkileib"
+                },
+                {
+                    "answer": "Kodukandi",
+                    "correct": false,
+                    "comment": "koorikleib"
+                },
+                { "answer": "Jassi", "correct": false, "comment": "seemneleib" }
+            ]
+        },
+        {
+            "question": "Linnud",
+            "answers": [
+                { "answer": "Valgepõsk-lagle", "correct": true },
+                { "answer": "Punakael-lagle", "correct": true },
+                { "answer": "Aedporr", "correct": true },
+                { "answer": "Pasknäär", "correct": true },
+                { "answer": "Kaur", "correct": true },
+                { "answer": "Meenäitur", "correct": true },
+                { "answer": "Musttihane", "correct": true },
+                { "answer": "Sinikõrv-lagle", "correct": false },
+                { "answer": "Rohetihane", "correct": false },
+                {
+                    "answer": "Viiger",
+                    "correct": false,
+                    "comment": "Viigerhüljes"
+                }
+            ]
+        },
+        {
+            "question": "Telefone tootnud firmad",
+            "answers": [
+                { "answer": "Xiaomi", "correct": true },
+                { "answer": "Energizer", "correct": true },
+                { "answer": "Sony", "correct": true },
+                { "answer": "Oppo", "correct": true },
+                { "answer": "LG", "correct": true },
+                { "answer": "Honor", "correct": true },
+                { "answer": "Microsoft", "correct": true },
+                {
+                    "answer": "Nintendo",
+                    "correct": false,
+                    "comment": "Videomängud"
+                },
+                { "answer": "Scania", "correct": false, "comment": "Veokid" },
+                { "answer": "Bose", "correct": false, "comment": "Helitehnika" }
             ]
         }
     ]
