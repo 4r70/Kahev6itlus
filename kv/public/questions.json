@@ -336,37 +336,37 @@
                 {
                     "answer": "Ükssarvik",
                     "correct": true,
-                    "comment": ""
+                    "comment": "Unicorn"
                 },
                 {
                     "answer": "Prussakas",
                     "correct": true,
-                    "comment": ""
+                    "comment": "Cockroach, aeglaselt aga kindlalt kasvav"
                 },
                 {
                     "answer": "Inkubaator",
                     "correct": true,
-                    "comment": ""
+                    "comment": "Incubator, ideearendusprogramm"
                 },
                 {
                     "answer": "Hokikepp",
                     "correct": true,
-                    "comment": ""
+                    "comment": "Hockey stick, algul aeglane, hiljem järsk kasv"
                 },
                 {
                     "answer": "Lennurada",
                     "correct": true,
-                    "comment": ""
+                    "comment": "Runway, aeg mil saab ettevõte X summaga hakkama"
                 },
                 {
                     "answer": "Surmaorg",
                     "correct": true,
-                    "comment": ""
+                    "comment": "Valley of Death, kriitiline periood, mil ettevõttel on rahaliselt keerulised ajad"
                 },
                 {
                     "answer": "Seemnevoor",
                     "correct": true,
-                    "comment": ""
+                    "comment": "Seed round, algkapitali kogumise voor"
                 },
                 {
                     "answer": "Siledus",
@@ -1898,6 +1898,307 @@
                 },
                 { "answer": "Scania", "correct": false, "comment": "Veokid" },
                 { "answer": "Bose", "correct": false, "comment": "Helitehnika" }
+            ]
+        },
+        {
+            "question": "Millised neist on kohukesefirmad?",
+            "answers": [
+                { "answer": "Farmi", "correct": true },
+                { "answer": "Saare", "correct": true },
+                { "answer": "Karums", "correct": true },
+                { "answer": "Alma", "correct": true },
+                { "answer": "Aasa", "correct": true },
+                { "answer": "Tere", "correct": true },
+                { "answer": "Hüva", "correct": true },
+                {
+                    "answer": "Estover",
+                    "correct": false,
+                    "comment": "Või, juust, kohupiim, jogurt jne"
+                },
+                {
+                    "answer": "Mo Saaremaa",
+                    "correct": false,
+                    "comment": "Juust, piim, kohupiim, või jne"
+                },
+                { "answer": "Kodutalu", "correct": false, "comment": "Munad" }
+            ]
+        },
+        {
+            "question": "Millised sportlased esindasid Eestit 2024. aasta olümpiamängudel?",
+            "answers": [
+                {
+                    "answer": "Johannes Erm",
+                    "correct": true,
+                    "comment": "Kergejõustik"
+                },
+                {
+                    "answer": "Karel Tilga",
+                    "correct": true,
+                    "comment": "Kergejõustik"
+                },
+                {
+                    "answer": "Kristin Kuuba",
+                    "correct": true,
+                    "comment": "Sulgpall"
+                },
+                {
+                    "answer": "Heiki Nabi",
+                    "correct": true,
+                    "comment": "Maadlus"
+                },
+                { "answer": "Aasa", "correct": false },
+                {
+                    "answer": "Nelli Differt",
+                    "correct": true,
+                    "comment": "Vehklemine"
+                },
+                {
+                    "answer": "Eneli Jefimova",
+                    "correct": true,
+                    "comment": "Ujumine"
+                },
+                {
+                    "answer": "Mart Seim",
+                    "correct": true,
+                    "comment": "Tõstmine"
+                },
+                {
+                    "answer": "Tanel Kangert",
+                    "correct": false,
+                    "comment": "2020. aasta olümpiamängud"
+                },
+                {
+                    "answer": "Ksenija Balta",
+                    "correct": false,
+                    "comment": "2020. aasta olümpiamängud"
+                },
+                {
+                    "answer": "Raul Must",
+                    "correct": false,
+                    "comment": "2020. aasta olümpiamängud"
+                }
+            ]
+        },
+        {
+            "question": "Millised sõnad esinevad laulus 'Suur loterii'?",
+            "answers": [
+                { "answer": "Aeg", "correct": true },
+                { "answer": "Suur", "correct": true },
+                { "answer": "Loterii", "correct": true },
+                { "answer": "Elu", "correct": true },
+                { "answer": "Võitja", "correct": true },
+                { "answer": "Vaksal", "correct": true },
+                { "answer": "Käest", "correct": true },
+                { "answer": "Halb", "correct": false },
+                { "answer": "Minu", "correct": false },
+                { "answer": "Miks", "correct": false }
+            ]
+        },
+        {
+            "question": "Millised neist linnadest asuvad Silicon Valleys?",
+            "answers": [
+                {
+                    "answer": "Mountain View",
+                    "correct": true,
+                    "comment": "Nt Google"
+                },
+                {
+                    "answer": "Palo Alto",
+                    "correct": true,
+                    "comment": "Nt HP, Tesla"
+                },
+                {
+                    "answer": "San Jose",
+                    "correct": true,
+                    "comment": "Nt Cisco, eBay, PayPal"
+                },
+                {
+                    "answer": "Sunnyvale",
+                    "correct": true,
+                    "comment": "Nt LinkedIn"
+                },
+                {
+                    "answer": "Cupertino",
+                    "correct": true,
+                    "comment": "Nt Apple"
+                },
+                {
+                    "answer": "Santa Clara",
+                    "correct": true,
+                    "comment": "Nt Intel, AMD ja Nvidia"
+                },
+                {
+                    "answer": "Redwood City",
+                    "correct": true,
+                    "comment": "Nt Oracle, EA"
+                },
+                {
+                    "answer": "Sacramento",
+                    "correct": false,
+                    "comment": "Ka Californias, aga kaugemal Silicon Valleyst"
+                },
+                {
+                    "answer": "Los Angeles",
+                    "correct": false,
+                    "comment": "Ka Californias, kuid Silicon Valleyst eemal"
+                },
+                {
+                    "answer": "Las Vegas",
+                    "correct": false,
+                    "comment": "Ei asu Californias, vaid Nevadas"
+                }
+            ]
+        },
+        {
+            "question": "Millised neist on naiskirjanikud ja luuletajad?",
+            "answers": [
+                { "answer": "Anna Haava", "correct": true },
+                { "answer": "Betti Alver", "correct": true },
+                { "answer": "Marie Under", "correct": true },
+                { "answer": "Debora Vaarandi", "correct": true },
+                { "answer": "Viivi Luik", "correct": true },
+                { "answer": "Doris Kareva", "correct": true },
+                { "answer": "Leelo Tungal", "correct": true },
+                {
+                    "answer": "Reet Linna",
+                    "correct": false,
+                    "comment": "Ajakirjanik ja autor"
+                },
+                {
+                    "answer": "Anu Välba",
+                    "correct": false,
+                    "comment": "Saatejuht ja teleajakirjanik"
+                },
+                {
+                    "answer": "Kristiina Poska",
+                    "correct": false,
+                    "comment": "Dirigent"
+                }
+            ]
+        },
+        {
+            "question": "Millised neist on Eestis elavad kahepaiksed?",
+            "answers": [
+                { "answer": "Tähnikvesilik", "correct": true },
+                { "answer": "Tiigikonn", "correct": true },
+                { "answer": "Mudakonn", "correct": true },
+                { "answer": "Veekonn", "correct": true },
+                { "answer": "Järvekonn", "correct": true },
+                { "answer": "Rabakonn", "correct": true },
+                { "answer": "Rohukonn", "correct": true },
+                {
+                    "answer": "Põhjakonn",
+                    "correct": false,
+                    "comment": "Pole Eestis"
+                },
+                {
+                    "answer": "Ojakonn",
+                    "correct": false,
+                    "comment": "Pole Eestis"
+                },
+                {
+                    "answer": "Marmorvesilik",
+                    "correct": false,
+                    "comment": "Levinud Euroopas, mitte Eestis"
+                }
+            ]
+        },
+        {
+            "question": "Millised neist on suitsuvorstid?",
+            "answers": [
+                {
+                    "answer": "Krakovi",
+                    "correct": true,
+                    "comment": "Saadaval Rannarootsi, Valla, Nõo toodetena"
+                },
+                {
+                    "answer": "Moskva",
+                    "correct": true,
+                    "comment": "Saadaval Rannarootsi toodetena"
+                },
+                {
+                    "answer": "Tõmmu",
+                    "correct": true,
+                    "comment": "Saadaval Wõro toodetena"
+                },
+                {
+                    "answer": "Willemi",
+                    "correct": true,
+                    "comment": "Saadaval Maks ja Moorits toodetena"
+                },
+                {
+                    "answer": "Ordu",
+                    "correct": true,
+                    "comment": "Saadaval Nõo toodetena"
+                },
+                {
+                    "answer": "Tamula",
+                    "correct": true,
+                    "comment": "Saadaval Wõro toodetena"
+                },
+                {
+                    "answer": "Tooma",
+                    "correct": true,
+                    "comment": "Saadaval Maks ja Moorits toodetena"
+                },
+                {
+                    "answer": "Toome",
+                    "correct": false,
+                    "comment": "Salvesti purgisalat"
+                },
+                { "answer": "Kodukandi", "correct": false, "comment": "Leib" },
+                { "answer": "Maasdam", "correct": false, "comment": "Juust" }
+            ]
+        },
+        {
+            "question": "Millised järgmistest isikutest on TalTechi vilistlased?",
+            "answers": [
+                {
+                    "answer": "Taavi Kotka",
+                    "correct": true,
+                    "comment": "Lõpetanud E-riigi tehnoloogiad ja teenused (magister), cum laude, 2014"
+                },
+                {
+                    "answer": "Gert Jervan",
+                    "correct": true,
+                    "comment": "Informaatika ja arvutitehnika, lõpetanud 1998"
+                },
+                { "answer": "Ago Luberg", "correct": true, "comment": "" },
+                {
+                    "answer": "Jüri Ratas",
+                    "correct": true,
+                    "comment": "Ärikorralduse lõpetanud 2002"
+                },
+                {
+                    "answer": "Kristjan Maruste",
+                    "correct": true,
+                    "comment": "Mehhatroonika, lõpetanud 2011 ja 2014"
+                },
+                {
+                    "answer": "Tuuli Roosma",
+                    "correct": true,
+                    "comment": "Lõpetanud Kõrgema Majanduskooli 1997"
+                },
+                {
+                    "answer": "Lea Danilson-Järg",
+                    "correct": true,
+                    "comment": "Haridusjuhtimise õppesuund, lõpetanud 2002"
+                },
+                {
+                    "answer": "Tiit Land",
+                    "correct": false,
+                    "comment": "Lõpetanud Stockholmi Ülikooli ja Tartu Ülikooli"
+                },
+                {
+                    "answer": "Birgy Lorenz",
+                    "correct": false,
+                    "comment": "Lõpetanud Tallinna Ülikooli"
+                },
+                {
+                    "answer": "Martin Helme",
+                    "correct": false,
+                    "comment": "Lõpetanud Tartu Ülikooli"
+                }
             ]
         }
     ]
