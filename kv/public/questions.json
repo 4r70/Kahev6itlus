@@ -1946,7 +1946,6 @@
                     "correct": true,
                     "comment": "Maadlus"
                 },
-                { "answer": "Aasa", "correct": false },
                 {
                     "answer": "Nelli Differt",
                     "correct": true,
@@ -1980,7 +1979,7 @@
             ]
         },
         {
-            "question": "Millised sõnad esinevad laulus 'Suur loterii'?",
+            "question": "Millised sõnad esinevad laulus \"Suur loterii\"?",
             "answers": [
                 { "answer": "Aeg", "correct": true },
                 { "answer": "Suur", "correct": true },
