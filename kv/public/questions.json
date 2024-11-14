@@ -2430,6 +2430,21 @@
                     "comment": "Ainus osaleja, kes on 2 korda saates olnud: 13. koht ja 6. koht."
                 }
             ]
-        }
+        },
+        {
+            "question": "Briti impeeriumisse kuulunud riigid",
+            "answers": [
+              { "answer": "Bermuuda", "correct": true, "comment": "Bermuuda oli Briti impeeriumi valdus ja on endiselt Suurbritannia ülemereterritoorium." },
+              { "answer": "Austraalia", "correct": true, "comment": "Austraalia kuulus Briti impeeriumi koosseisu kuni 20. sajandi keskpaigani." },
+              { "answer": "LAV", "correct": true, "comment": "Lõuna-Aafrika Vabariik kuulus Briti impeeriumi koosseisu." },
+              { "answer": "Bangladesh", "correct": true, "comment": "Bangladesh oli osa Briti Indiast." },
+              { "answer": "India", "correct": true, "comment": "India oli Briti impeeriumi kroonijuveel." },
+              { "answer": "Kanada", "correct": true, "comment": "Kanada oli Briti koloonia enne iseseisvumist." },
+              { "answer": "Küpros", "correct": true, "comment": "Küpros oli Briti koloonia kuni 1960. aastani." },
+              { "answer": "Portugal", "correct": false, "comment": "" },
+              { "answer": "Maroko", "correct": false, "comment": "" },
+              { "answer": "Filipiinid", "correct": false, "comment": "Filipiinid olid Hispaania ja hiljem USA kontrolli all, mitte Briti impeeriumi." }
+            ]
+          }
     ]
 }
