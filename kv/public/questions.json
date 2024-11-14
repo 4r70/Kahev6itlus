@@ -2598,6 +2598,21 @@
                     "comment": "Rallisõitja, ärimees"
                 }
             ]
+        },
+        {
+            "question": "Millised järgnevatest on Saaremaal asuvad kohad, mille nimedes on sõna 'jala'?",
+            "answers": [
+                { "answer": "Valjala", "correct": true, "comment": "" },
+                { "answer": "Anijala", "correct": true, "comment": "" },
+                { "answer": "Mändjala", "correct": true, "comment": "" },
+                { "answer": "Laimjala", "correct": true, "comment": "" },
+                { "answer": "Kõljala", "correct": true, "comment": "" },
+                { "answer": "Mustjala", "correct": true, "comment": "" },
+                { "answer": "Laadjala", "correct": true, "comment": "" },
+                { "answer": "Labajala", "correct": false, "comment": "" },
+                { "answer": "Haljala", "correct": false, "comment": "" },
+                { "answer": "Puujala", "correct": false, "comment": "" }
+            ]
         }
     ]
 }
