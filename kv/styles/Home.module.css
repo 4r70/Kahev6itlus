@@ -33,6 +33,7 @@
   overflow-y: auto;
   padding-right: 1rem;
   margin-left: 1rem;
+  width: 60%;
 }
 
 .question {
@@ -48,7 +49,7 @@
   margin-bottom: 1rem;
   text-decoration: none;
   color: white;
-  width: 45ch;
+  width: 100%;
   word-break: normal;
   transition: all .2s ease-in-out;
 }
@@ -121,4 +122,29 @@
   -ms-transform: translateX(2rem);
   transform: translateX(2rem);
   background-color: #ffa800;
+}
+
+.topContainer {
+  display: flex;
+  align-items: center;  
+  justify-content: space-between;
+  width: calc(60% - 1rem);
+  margin-bottom: 1rem;
+}
+
+.resetDataButton {
+  all: unset;
+  cursor: pointer;
+  font-size: 1rem;
+  font-size: clamp(1rem, 0.95rem + 0.25vw, 1.25rem);
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  border: 3px solid white;
+  background-color: rgba(204, 218, 209, 0.2);
+  transition: all .4s ease-in-out;
+  white-space: nowrap;
+}
+
+.resetDataButton:hover {
+  background-color: rgba(204, 218, 209, 0.4);
 }

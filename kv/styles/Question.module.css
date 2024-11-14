@@ -111,7 +111,7 @@
   font-size: clamp(1.25rem, 1rem + 1.25vw, 2.5rem);
   font-weight: 800;
   text-align: center;
-  z-index: 5; 
+  z-index: 5;
 }
 
 .topRow {
@@ -185,7 +185,8 @@
   /* Firefox */
 }
 
-.playerRowLeft, .playerRowRight{
+.playerRowLeft,
+.playerRowRight {
   display: flex;
   flex-direction: column;
 }
@@ -194,7 +195,8 @@
   align-items: flex-end;
 }
 
-.mainScore {
+.mainScore,
+.totalScore {
   all: unset;
   font-size: 3.5rem;
   font-size: clamp(3.5rem, 3rem + 2.5vw, 6rem);
@@ -203,22 +205,39 @@
   width: 5ch;
 }
 
+.totalScore {
+  font-size: 1.75rem;
+  font-size: clamp(1.75rem, 1.4rem + 1.7500000000000002vw, 3.5rem);
+  margin-top: 2rem;
+  color: #ddd;
+}
+
 .mainScore::-webkit-outer-spin-button,
-.mainScore::-webkit-inner-spin-button {
+.mainScore::-webkit-inner-spin-button,
+.totalScore::-webkit-outer-spin-button,
+.totalScore::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
 
 /* Firefox */
-.mainScore[type="number"] {
+.mainScore[type="number"],
+.totalScore[type="number"] {
   -moz-appearance: textfield;
 }
 
-.mainScoreTitle {
+.mainScoreTitle,
+.totalScoreTitle {
   font-size: 1rem;
   font-size: clamp(1rem, 0.85rem + 0.75vw, 1.75rem);
   font-weight: 500;
   z-index: 5;
+}
+
+.totalScoreTitle {
+  font-size: 0.75rem;
+  font-size: clamp(0.75rem, 0.65rem + 0.5vw, 1.25rem);
+  color: #ddd;
 }
 
 .correct {
@@ -331,9 +350,13 @@
     padding: 1rem;
     max-height: 100dvh;
   }
-  .centerColumn, .leftColumn, .rightColumn {
+
+  .centerColumn,
+  .leftColumn,
+  .rightColumn {
     max-height: calc(100dvh - 2rem);
   }
+
   .centerColumn h1 {
     font-size: 1rem;
     font-size: clamp(1rem, 0.9rem + 0.5vw, 1.5rem);

@@ -7,7 +7,7 @@ import { useState, useEffect } from "react";
 import { useRouter } from "next/router";
 
 export default function Home() {
-  console.log(Questions);
+  // console.log(Questions);
   const [theme, setTheme] = useState("default");
   const router = useRouter();
 
@@ -17,6 +17,11 @@ export default function Home() {
       setTheme(queryTheme || "default");
     }
   }, [router.isReady]);
+
+  const resetGame = () => {
+    router.push("/");
+    setTheme("default");
+  }
 
   return (
     <>
@@ -31,24 +36,28 @@ export default function Home() {
         <div className={styles.toggleContainer}>
           <span className={styles.toggleContainerTitle}>Teema:</span>
           Tavaline
-              <label className={styles.toggle}>
-                <input
-                  className={styles.toggleInput}
-                  type="checkbox"
-                  onChange={() => {
-                    setTheme((prev) => prev === "KOIT" ? "default" : "KOIT");
-                    router.push(`/?theme=${theme === "KOIT" ? "default" : "KOIT"}`);
-                  }}
-                  checked={theme === "KOIT"}
-                />
-                <span className={styles.slider}></span>
-              </label>
-              KOIT
-            </div>
-        <h2>Vali küsimus</h2>
+          <label className={styles.toggle}>
+            <input
+              className={styles.toggleInput}
+              type="checkbox"
+              onChange={() => {
+                const newTheme = theme === "KOIT" ? "default" : "KOIT";
+                setTheme(newTheme);
+                router.push({ query: { ...router.query, theme: newTheme } });
+              }}
+              checked={theme === "KOIT"}
+            />
+            <span className={styles.slider}></span>
+          </label>
+          KOIT
+        </div>
+        <div className={styles.topContainer}>
+          <h2>Vali küsimus</h2>
+          <button onClick={resetGame} className={styles.resetDataButton}>Lähtesta andmed</button>
+        </div>
         <div className={styles.questions}>
           {Questions.questions.map((question) => (
-            <Link className={styles.question} key={question.question} href={`/${encodeURIComponent(question.question)}?theme=${theme}`}>
+            <Link className={styles.question} key={question.question} href={{ pathname: `/${encodeURIComponent(question.question)}`, query: { ...router.query, p1s: router.query.p1s ? router.query.p1s : Number(0), p2s: router.query.p2s ? router.query.p2s : Number(0) } }}>
               {question.question}
             </Link>
           ))}

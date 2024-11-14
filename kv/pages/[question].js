@@ -10,10 +10,12 @@ export default function Question() {
   const router = useRouter();
   const { question } = router.query;
   const [theme, setTheme] = useState("default");
-  const [player1, setPlayer1] = useState("");
-  const [player2, setPlayer2] = useState("");
+  const [player1, setPlayer1] = useState(router.query.p1n || "");
+  const [player2, setPlayer2] = useState(router.query.p2n || "");
   const [score1, setScore1] = useState(0);
   const [score2, setScore2] = useState(0);
+  const [mainScore1, setMainScore1] = useState(router.query.p1s || 0);
+  const [mainScore2, setMainScore2] = useState(router.query.p2s || 0);
   const [turn, setTurn] = useState(0);
   const [revealed, setRevealed] = useState(Array(10).fill(false));
   const [scoreAdded, setScoreAdded] = useState(10);
@@ -33,6 +35,18 @@ export default function Question() {
       setAllDoneAudio(new Audio('./all.mp3'));
     }
   }, []);
+
+  useEffect(() => {
+    if (router.isReady) {
+      router.push(
+        {
+          pathname: router.pathname,
+          query: { ...router.query, p1s: mainScore1, p2s: mainScore2, p1n: player1 , p2n: player2 }
+        },
+          { shallow: true }
+      );
+    }
+  }, [mainScore1, mainScore2, router.isReady]);
 
   useEffect(() => {
     if (router.isReady && question) {
@@ -72,17 +86,21 @@ export default function Question() {
       checkRemainingAnswers("correct");
       if (turn === 1) {
         setScore1((prev) => prev + scoreAdded);
+        setMainScore1((prev) => Number(prev) + scoreAdded);
       } else {
         setScore2((prev) => prev + scoreAdded);
+        setMainScore2((prev) => Number(prev) + scoreAdded);
       }
     } else {
       incorrectAudio.play();
       setGuessWrongAnswers((prev) => prev + 1);
       checkRemainingAnswers("incorrect");
       if (turn === 1) {
+        setMainScore1((prev) => prev - score1);
         setScore1(0);
         setTurn(2);
       } else {
+        setMainScore2((prev) => prev - score2);
         setScore2(0);
         setTurn(1);
       }
@@ -101,8 +119,10 @@ export default function Question() {
         revealAllAnswers();
         if (turn === 1) {
           setScore2((prev) => prev + remainingScore);
+          setMainScore2((prev) => prev + remainingScore);
         } else {
           setScore1((prev) => prev + remainingScore);
+          setMainScore1((prev) => prev + remainingScore);
         }
       }
     }
@@ -166,7 +186,7 @@ export default function Question() {
               className={styles.playerName}
               placeholder="Sisesta nimi..."
               value={player1}
-              onChange={(e) => setPlayer1(e.target.value)}
+              onChange={(e) => { setPlayer1(e.target.value), router.push({ pathname: router.pathname, query: { ...router.query, p1n: e.target.value } }, { shallow: true }) }}
               onClick={(e) => e.stopPropagation()}
             />
             <input
@@ -177,15 +197,23 @@ export default function Question() {
               onClick={(e) => e.stopPropagation()}
             />
             <p className={styles.mainScoreTitle}>Skoor</p>
+            <input
+              className={styles.totalScore}
+              type="number"
+              value={mainScore1}
+              onChange={(e) => setMainScore1(parseInt(e.target.value))}
+              onClick={(e) => e.stopPropagation()}
+            />
+            <p className={styles.totalScoreTitle}>Üldskoor</p>
           </div>
         </div>
         <div className={styles.centerColumn}>
           <div className={styles.topRow}>
-            <button onClick={() => router.push({ pathname: "/", query: { theme: theme } })} className={styles.backButton}>
+            <button title="Tagasi küsimuste juurde" onClick={() => router.push({ pathname: "/", query: { theme: router.query.theme, p1s: mainScore1, p2s: mainScore2, p1n: player1, p2n: player2 } })} className={styles.backButton}>
               <Back className={styles.backIcon} width={40} height={40} />
             </button>
             <h1>{question}</h1>
-            <button onClick={() => resetAll()} className={styles.resetButton}>
+            <button title="Lähtesta raund" onClick={() => resetAll()} className={styles.resetButton}>
               <Reset className={styles.resetIcon} width={40} height={40} />
             </button>
           </div>
@@ -222,7 +250,7 @@ export default function Question() {
               className={styles.playerName}
               placeholder="Sisesta nimi..."
               value={player2}
-              onChange={(e) => setPlayer2(e.target.value)}
+              onChange={(e) => { setPlayer2(e.target.value), router.push({ pathname: router.pathname, query: { ...router.query, p2n: e.target.value } }, { shallow: true }) }}
               onClick={(e) => e.stopPropagation()}
             />
             <input
@@ -233,6 +261,14 @@ export default function Question() {
               onClick={(e) => e.stopPropagation()}
             />
             <p className={styles.mainScoreTitle}>Skoor</p>
+            <input
+              className={styles.totalScore}
+              type="number"
+              value={mainScore2}
+              onChange={(e) => setMainScore2(parseInt(e.target.value))}
+              onClick={(e) => e.stopPropagation()}
+            />
+            <p className={styles.totalScoreTitle}>Üldskoor</p>
           </div>
         </div>
       </div>
