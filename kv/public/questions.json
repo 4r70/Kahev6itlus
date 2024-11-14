@@ -2199,6 +2199,157 @@
                     "comment": "Lõpetanud Tartu Ülikooli"
                 }
             ]
+        },
+        {
+            "category": "Seened",
+            "questions": [
+                {
+                    "question": "Millised järgmistest on seened?",
+                    "answers": [
+                        { "answer": "Soopilvik", "correct": true },
+                        { "answer": "Suur sirmik", "correct": true },
+                        { "answer": "Kasepilvik", "correct": true },
+                        { "answer": "Sinipilvik", "correct": true },
+                        { "answer": "Kahvatu kukeseen", "correct": true },
+                        { "answer": "Ametüst-kukeseen", "correct": true },
+                        { "answer": "Kasepuravik", "correct": true },
+                        {
+                            "answer": "Lillapilvik",
+                            "correct": false,
+                            "comment": "Veinpunane pilvik on olemas"
+                        },
+                        { "answer": "Laanepuravik", "correct": false },
+                        {
+                            "answer": "Sinikas",
+                            "correct": false,
+                            "comment": "Taim, mustikalaadne"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "category": "Kangad",
+            "questions": [
+                {
+                    "question": "Millised järgnevatest on kangad?",
+                    "answers": [
+                        {
+                            "answer": "Tviid",
+                            "correct": true,
+                            "comment": "Jäme villane või poolvillane kangas"
+                        },
+                        {
+                            "answer": "Jute",
+                            "correct": true,
+                            "comment": "Looduslik kiudmaterjal"
+                        },
+                        {
+                            "answer": "Scuba",
+                            "correct": true,
+                            "comment": "Sile sünteetiline kangas"
+                        },
+                        {
+                            "answer": "Veluur",
+                            "correct": true,
+                            "comment": "Tiheda madala karusega koesameti tüüpi kangas"
+                        },
+                        {
+                            "answer": "Lyocell",
+                            "correct": true,
+                            "comment": "Poolsünteetiline ökomaterjal"
+                        },
+                        {
+                            "answer": "Atlass",
+                            "correct": true,
+                            "comment": "Ühelt poolt sile ja läikiv kangas"
+                        },
+                        {
+                            "answer": "Musliin",
+                            "correct": true,
+                            "comment": "Pehme ja hingav puuvillakangas"
+                        },
+                        {
+                            "answer": "Molbert",
+                            "correct": false,
+                            "comment": "Maalipukk"
+                        },
+                        { "answer": "Subliin", "correct": false },
+                        {
+                            "answer": "Mensuur",
+                            "correct": false,
+                            "comment": "Mõõteklaas"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "category": "Kümnevõistluse alad",
+            "questions": [
+                {
+                    "question": "Millised on kümnevõistluse alad?",
+                    "answers": [
+                        { "answer": "100m jooks", "correct": true },
+                        { "answer": "110m tõkkejooks", "correct": true },
+                        { "answer": "400m jooks", "correct": true },
+                        { "answer": "Kuulitõuge", "correct": true },
+                        { "answer": "Teivashüpe", "correct": true },
+                        { "answer": "Kõrgushüpe", "correct": true },
+                        { "answer": "400m tõkkejooks", "correct": false },
+                        { "answer": "Vasaraheide", "correct": false },
+                        { "answer": "Kolmikhüpe", "correct": false }
+                    ]
+                }
+            ]
+        },
+        {
+            "category": "Õunasordid",
+            "questions": [
+                {
+                    "question": "Millised järgnevatest on õunasordid?",
+                    "answers": [
+                        { "answer": "Antonovka/Antoonovka", "correct": true },
+                        { "answer": "Kuldrenett", "correct": true },
+                        { "answer": "Martsipan", "correct": true },
+                        { "answer": "Kasper", "correct": true },
+                        { "answer": "Tallinna pirnõun", "correct": true },
+                        { "answer": "Fuji", "correct": true },
+                        { "answer": "Tartu roosõun", "correct": true },
+                        {
+                            "answer": "Pärnu harakõun",
+                            "correct": false,
+                            "comment": "Pärnu tuviõun on olemas"
+                        },
+                        {
+                            "answer": "Põltsamaa kuldne",
+                            "correct": false,
+                            "comment": "Vein"
+                        },
+                        { "answer": "Priit", "correct": false }
+                    ]
+                }
+            ]
+        },
+        {
+            "category": "Kartulisordid",
+            "questions": [
+                {
+                    "question": "Millised järgmistest on kartulisordid?",
+                    "answers": [
+                        { "answer": "Anti", "correct": true },
+                        { "answer": "Ants", "correct": true },
+                        { "answer": "Jõgeva kollane", "correct": true },
+                        { "answer": "Maret", "correct": true },
+                        { "answer": "Piret", "correct": true },
+                        { "answer": "Teele", "correct": true },
+                        { "answer": "Tiina", "correct": true },
+                        { "answer": "Andres", "correct": false },
+                        { "answer": "Sander", "correct": false },
+                        { "answer": "Krõõt", "correct": false }
+                    ]
+                }
+            ]
         }
     ]
 }
