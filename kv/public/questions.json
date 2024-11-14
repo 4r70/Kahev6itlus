@@ -2564,7 +2564,7 @@
             ]
         },
         {
-            "question": "Millised järgnevatest on tuntud moeloojad?",
+            "question": "Moeloojad",
             "comment": "",
             "answers": [
                 { "answer": "Tom Ford", "correct": true, "comment": "" },
@@ -2600,7 +2600,7 @@
             ]
         },
         {
-            "question": "Millised järgnevatest on Saaremaal asuvad kohad, mille nimedes on sõna 'jala'?",
+            "question": "Saaremaa \"jalad\"",
             "answers": [
                 { "answer": "Valjala", "correct": true, "comment": "" },
                 { "answer": "Anijala", "correct": true, "comment": "" },
