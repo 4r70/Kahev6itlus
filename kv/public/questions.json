@@ -2434,17 +2434,80 @@
         {
             "question": "Briti impeeriumisse kuulunud riigid",
             "answers": [
-              { "answer": "Bermuuda", "correct": true, "comment": "Bermuuda oli Briti impeeriumi valdus ja on endiselt Suurbritannia ülemereterritoorium." },
-              { "answer": "Austraalia", "correct": true, "comment": "Austraalia kuulus Briti impeeriumi koosseisu kuni 20. sajandi keskpaigani." },
-              { "answer": "LAV", "correct": true, "comment": "Lõuna-Aafrika Vabariik kuulus Briti impeeriumi koosseisu." },
-              { "answer": "Bangladesh", "correct": true, "comment": "Bangladesh oli osa Briti Indiast." },
-              { "answer": "India", "correct": true, "comment": "India oli Briti impeeriumi kroonijuveel." },
-              { "answer": "Kanada", "correct": true, "comment": "Kanada oli Briti koloonia enne iseseisvumist." },
-              { "answer": "Küpros", "correct": true, "comment": "Küpros oli Briti koloonia kuni 1960. aastani." },
-              { "answer": "Portugal", "correct": false, "comment": "" },
-              { "answer": "Maroko", "correct": false, "comment": "" },
-              { "answer": "Filipiinid", "correct": false, "comment": "Filipiinid olid Hispaania ja hiljem USA kontrolli all, mitte Briti impeeriumi." }
+                {
+                    "answer": "Bermuuda",
+                    "correct": true,
+                    "comment": "Bermuuda oli Briti impeeriumi valdus ja on endiselt Suurbritannia ülemereterritoorium."
+                },
+                {
+                    "answer": "Austraalia",
+                    "correct": true,
+                    "comment": "Austraalia kuulus Briti impeeriumi koosseisu kuni 20. sajandi keskpaigani."
+                },
+                {
+                    "answer": "LAV",
+                    "correct": true,
+                    "comment": "Lõuna-Aafrika Vabariik kuulus Briti impeeriumi koosseisu."
+                },
+                {
+                    "answer": "Bangladesh",
+                    "correct": true,
+                    "comment": "Bangladesh oli osa Briti Indiast."
+                },
+                {
+                    "answer": "India",
+                    "correct": true,
+                    "comment": "India oli Briti impeeriumi kroonijuveel."
+                },
+                {
+                    "answer": "Kanada",
+                    "correct": true,
+                    "comment": "Kanada oli Briti koloonia enne iseseisvumist."
+                },
+                {
+                    "answer": "Küpros",
+                    "correct": true,
+                    "comment": "Küpros oli Briti koloonia kuni 1960. aastani."
+                },
+                { "answer": "Portugal", "correct": false, "comment": "" },
+                { "answer": "Maroko", "correct": false, "comment": "" },
+                {
+                    "answer": "Filipiinid",
+                    "correct": false,
+                    "comment": "Filipiinid olid Hispaania ja hiljem USA kontrolli all, mitte Briti impeeriumi."
+                }
             ]
-          }
+        },
+        {
+            "question": "Ämblikud",
+            "answers": [
+                { "answer": "Linnutapik", "correct": true, "comment": "" },
+                { "answer": "Tarantel", "correct": true, "comment": "" },
+                { "answer": "Karakurt", "correct": true, "comment": "" },
+                { "answer": "Kangurlane", "correct": true, "comment": "" },
+                { "answer": "Aiavõrkurlane", "correct": true, "comment": "" },
+                { "answer": "Must lesk", "correct": true, "comment": "" },
+                { "answer": "Herilasämblik", "correct": true, "comment": "" },
+                { "answer": "Surmavaritseja", "correct": false, "comment": "" },
+                { "answer": "Kaosämblik", "correct": false, "comment": "" },
+                { "answer": "Majasoomukas", "correct": false, "comment": "" }
+            ]
+        },
+        {
+          "question": "Kaunviljad",
+          "comment": "",
+          "answers": [
+            { "answer": "Lupiin", "correct": true, "comment": "" },
+            { "answer": "Mungvigna", "correct": true, "comment": "" },
+            { "answer": "Sojauba", "correct": true, "comment": "" },
+            { "answer": "Lääts", "correct": true, "comment": "" },
+            { "answer": "Kikerhernes", "correct": true, "comment": "" },
+            { "answer": "Okra", "correct": true, "comment": "" },
+            { "answer": "Vikk", "correct": true, "comment": "" },
+            { "answer": "Artišokk", "correct": false, "comment": "" },
+            { "answer": "Sigur", "correct": false, "comment": "" },
+            { "answer": "Misuuna", "correct": false, "comment": "" }
+          ]
+        }
     ]
 }
