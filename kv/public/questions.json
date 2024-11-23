@@ -2373,6 +2373,11 @@
                     "answer": "Grido",
                     "correct": false,
                     "comment": "Itaalia keeles 'karje', ei ole seotud muusikalise mõistega."
+                },
+                {
+                    "answer": "Heteromeloodia",
+                    "correct": false,
+                    "comment": ""
                 }
             ]
         },
