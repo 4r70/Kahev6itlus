@@ -404,7 +404,7 @@
                     "comment": ""
                 },
                 {
-                    "answer": "Nudist",
+                    "answer": "Suhe",
                     "correct": true,
                     "comment": ""
                 },
@@ -414,7 +414,7 @@
                     "comment": ""
                 },
                 {
-                    "answer": "Hell Hunt",
+                    "answer": "Koht",
                     "correct": true,
                     "comment": ""
                 },
@@ -431,12 +431,12 @@
                 {
                     "answer": "Näksi",
                     "correct": false,
-                    "comment": "Haapsalu"
+                    "comment": "Haapsalus"
                 },
                 {
                     "answer": "Space",
                     "correct": false,
-                    "comment": "Tartu"
+                    "comment": "Tartus"
                 }
             ]
         },
@@ -742,9 +742,9 @@
                     "comment": "Peaaegu nagu bold"
                 },
                 {
-                    "answer": "<acronym>",
+                    "answer": "<dl>",
                     "correct": true,
-                    "comment": "HTML4s ainult"
+                    "comment": "description list, nt hinna ülevaade"
                 },
                 {
                     "answer": "<abbr>",
@@ -2377,7 +2377,7 @@
                 {
                     "answer": "Heteromeloodia",
                     "correct": false,
-                    "comment": ""
+                    "comment": "Nonsense"
                 }
             ]
         },
@@ -2617,6 +2617,615 @@
                 { "answer": "Labajala", "correct": false, "comment": "" },
                 { "answer": "Haljala", "correct": false, "comment": "" },
                 { "answer": "Puujala", "correct": false, "comment": "" }
+            ]
+        },
+        {
+            "question": "Kroonika seksikaimad naised",
+            "answers": [
+                {
+                    "answer": "Keili Sükijainen",
+                    "correct": true,
+                    "comment": "2023"
+                },
+                {
+                    "answer": "Brigitte Susanne Hunt",
+                    "correct": true,
+                    "comment": "2020"
+                },
+                { "answer": "Anu Saagim", "correct": true, "comment": "2001" },
+                {
+                    "answer": "Merle Palmiste",
+                    "correct": true,
+                    "comment": "1998"
+                },
+                {
+                    "answer": "Lenna Kuurmaa",
+                    "correct": true,
+                    "comment": "2006 ja 2008"
+                },
+                {
+                    "answer": "Liis Lemsalu",
+                    "correct": true,
+                    "comment": "2019"
+                },
+                {
+                    "answer": "Eeva Esse-Sõõrumaa",
+                    "correct": true,
+                    "comment": "2024"
+                },
+                {
+                    "answer": "Getter Jaani",
+                    "correct": false,
+                    "comment": "robbed"
+                },
+                {
+                    "answer": "Maarja Liis Ilus",
+                    "correct": false,
+                    "comment": "pole piisavalt ilus ig"
+                },
+                {
+                    "answer": "Birgit Sarrap (Õigemeel)",
+                    "correct": false,
+                    "comment": ""
+                }
+            ]
+        },
+        {
+            "question": "Rinnahoidja tüübid",
+            "answers": [
+                { "answer": "Push-up", "correct": true, "comment": "" },
+                { "answer": "Strapless", "correct": true, "comment": "" },
+                { "answer": "Balconette", "correct": true, "comment": "" },
+                { "answer": "Plunge", "correct": true, "comment": "" },
+                { "answer": "Stick on", "correct": true, "comment": "" },
+                { "answer": "Bralette", "correct": true, "comment": "" },
+                { "answer": "3/4 cup", "correct": true, "comment": "" },
+                { "answer": "Reverse plunge", "correct": false, "comment": "" },
+                { "answer": "Double-demi", "correct": false, "comment": "" },
+                { "answer": "Wing-cup", "correct": false, "comment": "" }
+            ]
+        },
+        {
+            "question": "Filmindusega seotud terminid",
+            "answers": [
+                { "answer": "klapp", "correct": true, "comment": "" },
+                { "answer": "süžee", "correct": true, "comment": "" },
+                { "answer": "üldkeskplaan", "correct": true, "comment": "" },
+                { "answer": "üldplaan", "correct": true, "comment": "" },
+                { "answer": "keskplaan", "correct": true, "comment": "" },
+                { "answer": "esiplaan", "correct": true, "comment": "" },
+                { "answer": "suur plaan", "correct": true, "comment": "" },
+                { "answer": "umbplaan", "correct": false, "comment": "" },
+                { "answer": "neliplaan", "correct": false, "comment": "" },
+                { "answer": "diplaan", "correct": false, "comment": "" }
+            ]
+        },
+        {
+            "question": "Programmeerimisterminid",
+            "answers": [
+                { "answer": "Bug", "correct": true, "comment": "" },
+                {
+                    "answer": "DRY",
+                    "correct": true,
+                    "comment": "dont repeat yourself"
+                },
+                { "answer": "API", "correct": true, "comment": "" },
+                { "answer": "Low-level", "correct": true, "comment": "" },
+                { "answer": "OOP", "correct": true, "comment": "" },
+                { "answer": "String", "correct": true, "comment": "" },
+                { "answer": "Heisenbug", "correct": true, "comment": "" },
+                { "answer": "Eek", "correct": false, "comment": "" },
+                {
+                    "answer": "Cockroach",
+                    "correct": false,
+                    "comment": "startup maailma termin"
+                },
+                {
+                    "answer": "Spaghetti injection",
+                    "correct": false,
+                    "comment": "spaghetti code ja sql injection on"
+                }
+            ]
+        },
+        {
+            "question": "Minecrafti kollid",
+            "answers": [
+                { "answer": "Ghast", "correct": true, "comment": "" },
+                { "answer": "Elder Guardian", "correct": true, "comment": "" },
+                { "answer": "Slime", "correct": true, "comment": "" },
+                { "answer": "Stray", "correct": true, "comment": "" },
+                { "answer": "Pillager", "correct": true, "comment": "" },
+                { "answer": "Piglin Brute", "correct": true, "comment": "" },
+                { "answer": "Creeper", "correct": true, "comment": "" },
+                { "answer": "Goblin", "correct": false, "comment": "" },
+                {
+                    "answer": "Alpaca",
+                    "correct": false,
+                    "comment": "llamad on"
+                },
+                { "answer": "Ice Golem", "correct": false, "comment": "" }
+            ]
+        },
+        {
+            "question": "Growtopia tiivad",
+            "answers": [
+                { "answer": "Angel Wings", "correct": true, "comment": "" },
+                {
+                    "answer": "Inside-Out Devil Wings",
+                    "correct": true,
+                    "comment": ""
+                },
+                {
+                    "answer": "Crimson Eagle Wings",
+                    "correct": true,
+                    "comment": ""
+                },
+                { "answer": "Da Vinci Wings", "correct": true, "comment": "" },
+                { "answer": "Parrot Wings", "correct": true, "comment": "" },
+                { "answer": "Phoenix Wings", "correct": true, "comment": "" },
+                { "answer": "Ripper Wings", "correct": true, "comment": "" },
+                {
+                    "answer": "Teeny Inside-Out Devil Wings",
+                    "correct": false,
+                    "comment": ""
+                },
+                {
+                    "answer": "Orange Crystal Wings",
+                    "correct": false,
+                    "comment": "Golden, Green, Red, Purple, Blue, Aqua on olemas"
+                },
+                { "answer": "Raven Wings", "correct": false, "comment": "" }
+            ]
+        },
+        {
+            "question": "Kondoomi ingl sünonüümid",
+            "answers": [
+                { "answer": "Johnny", "correct": true, "comment": "" },
+                { "answer": "Raincoat", "correct": true, "comment": "" },
+                { "answer": "Rubber", "correct": true, "comment": "" },
+                { "answer": "Sheath", "correct": true, "comment": "" },
+                { "answer": "Glove", "correct": true, "comment": "" },
+                { "answer": "Joey", "correct": true, "comment": "" },
+                { "answer": "Balloon", "correct": true, "comment": "" },
+                { "answer": "Bevvy", "correct": false, "comment": "Joogid" },
+                { "answer": "Grub", "correct": false, "comment": "Toit" },
+                { "answer": "Cock-up", "correct": false, "comment": "Mistake" }
+            ]
+        },
+        {
+            "question": "Briti ingl roppsõnad",
+            "answers": [
+                { "answer": "Twat", "correct": true, "comment": "" },
+                { "answer": "Bellend", "correct": true, "comment": "" },
+                { "answer": "Nutter", "correct": true, "comment": "" },
+                { "answer": "Chav", "correct": true, "comment": "" },
+                { "answer": "Wanker", "correct": true, "comment": "" },
+                { "answer": "Cunt", "correct": true, "comment": "" },
+                { "answer": "Prick", "correct": true, "comment": "" },
+                { "answer": "Bog", "correct": false, "comment": "Tualett" },
+                {
+                    "answer": "Kerfuffle",
+                    "correct": false,
+                    "comment": "Disagreement, fuss"
+                },
+                { "answer": "Bev", "correct": false, "comment": "Handsome man" }
+            ]
+        },
+        {
+            "question": "Eesti kohad",
+            "answers": [
+                { "answer": "Tussi", "correct": true, "comment": "Mets" },
+                { "answer": "Püssi", "correct": true, "comment": "Linn" },
+                { "answer": "Tillijärv", "correct": true, "comment": "" },
+                { "answer": "Litsmetsa", "correct": true, "comment": "Küla" },
+                { "answer": "Tupenurme", "correct": true, "comment": "Küla" },
+                { "answer": "Putsorg", "correct": true, "comment": "" },
+                { "answer": "Riistakõrve", "correct": true, "comment": "Raba" },
+                { "answer": "Vituorg", "correct": false, "comment": "" },
+                { "answer": "Tussijärv", "correct": false, "comment": "" },
+                { "answer": "Nokumägi", "correct": false, "comment": "" }
+            ]
+        },
+        {
+            "question": "Verivorsti koostisosad",
+            "answers": [
+                { "answer": "Veri", "correct": true, "comment": "" },
+                { "answer": "Odratangud", "correct": true, "comment": "" },
+                { "answer": "Sealiha", "correct": true, "comment": "" },
+                { "answer": "Sibul", "correct": true, "comment": "" },
+                { "answer": "Soolikad", "correct": true, "comment": "" },
+                {
+                    "answer": "Vorstirohi",
+                    "correct": true,
+                    "comment": "Tuntud ka kui majoraan"
+                },
+                { "answer": "Pekk", "correct": true, "comment": "" },
+                { "answer": "Küüslauk", "correct": false, "comment": "" },
+                { "answer": "Riivsai", "correct": false, "comment": "" },
+                {
+                    "answer": "Odrajahu",
+                    "correct": false,
+                    "comment": "Verikäkis kasutatakse"
+                }
+            ]
+        },
+        {
+            "question": "Keeleteaduse harud",
+            "answers": [
+                {
+                    "answer": "Foneetika",
+                    "correct": true,
+                    "comment": "Häälikuõpetus"
+                },
+                {
+                    "answer": "Fonoloogia",
+                    "correct": true,
+                    "comment": "Häälikud kõne ja keele sisu seisukohast"
+                },
+                {
+                    "answer": "Morfoloogia",
+                    "correct": true,
+                    "comment": "Vormiõpetus"
+                },
+                {
+                    "answer": "Semantika",
+                    "correct": true,
+                    "comment": "Tähendusõpetus"
+                },
+                {
+                    "answer": "Stilistika",
+                    "correct": true,
+                    "comment": "Keelelise eripära uurimine"
+                },
+                { "answer": "Etümoloogia", "correct": true, "comment": "" },
+                {
+                    "answer": "Onomastika",
+                    "correct": true,
+                    "comment": "Nimeõpetus"
+                },
+                {
+                    "answer": "Anglolingvistika",
+                    "correct": false,
+                    "comment": ""
+                },
+                {
+                    "answer": "Entomoloogia",
+                    "correct": false,
+                    "comment": "Putukateadus"
+                },
+                {
+                    "answer": "Ornitoloogia",
+                    "correct": false,
+                    "comment": "Linnuteadus"
+                }
+            ]
+        },
+        {
+            "question": "2025 EMAl võitnud artistid",
+            "answers": [
+                {
+                    "answer": "Florian Wahl",
+                    "correct": true,
+                    "comment": "Aasta alternatiiv/indiealbum, aasta meesartist"
+                },
+                {
+                    "answer": "5MIINUST ja Puuluup",
+                    "correct": true,
+                    "comment": "Aasta etno/folk/rahvalik album, aasta ansambel, aasta album"
+                },
+                {
+                    "answer": "Nublu feat. maria kallastu",
+                    "correct": true,
+                    "comment": "Aasta muusikavideo, aasta laul, aasta popartist (nublu)"
+                },
+                {
+                    "answer": "Mari Jürjens",
+                    "correct": true,
+                    "comment": "Aasta naisartist"
+                },
+                {
+                    "answer": "Estonian Voices",
+                    "correct": true,
+                    "comment": "Aasta jazzalbum"
+                },
+                {
+                    "answer": "Kosmikud",
+                    "correct": true,
+                    "comment": "Aasta rockalbum"
+                },
+                {
+                    "answer": "Jüri Reinvere",
+                    "correct": true,
+                    "comment": "Aasta klassikaalbum"
+                },
+                {
+                    "answer": "Tommy Cash",
+                    "correct": false,
+                    "comment": "Aasta muusikavideo nominent"
+                },
+                {
+                    "answer": "villemdrillem",
+                    "correct": false,
+                    "comment": "aasta hip-hop/rap artist"
+                },
+                {
+                    "answer": "Vaiko Eplik ja Eliit",
+                    "correct": false,
+                    "comment": "Aasta autorialbum, aasta album, aasta ansambel"
+                }
+            ]
+        },
+        {
+            "question": "Emade nimed (07.02)",
+            "answers": [
+                { "answer": "Sirli", "correct": true, "comment": "" },
+                { "answer": "Kai-Epp", "correct": true, "comment": "" },
+                { "answer": "Berit", "correct": true, "comment": "" },
+                { "answer": "Anne", "correct": true, "comment": "" },
+                { "answer": "Thea", "correct": true, "comment": "" },
+                { "answer": "Annely", "correct": true, "comment": "" },
+                { "answer": "Heli", "correct": true, "comment": "" },
+                { "answer": "Anna", "correct": false, "comment": "" },
+                { "answer": "Annika", "correct": false, "comment": "" },
+                { "answer": "Merit", "correct": false, "comment": "" }
+            ]
+        },
+        {
+            "question": "Prantsusmaaga maismaapiiri jagavad riigid",
+            "answers": [
+                {
+                    "answer": "Brasiilia",
+                    "correct": true,
+                    "comment": "pikim piir, prantsuse guajaana"
+                },
+                {
+                    "answer": "Suriname",
+                    "correct": true,
+                    "comment": "prantsuse guajaana"
+                },
+                { "answer": "Belgia", "correct": true, "comment": "" },
+                { "answer": "Luksemburg", "correct": true, "comment": "" },
+                { "answer": "Monaco", "correct": true, "comment": "" },
+                { "answer": "Andorra", "correct": true, "comment": "" },
+                {
+                    "answer": "Holland",
+                    "correct": true,
+                    "comment": "Sint-Maarten, Saint-Martini saar kariibides"
+                },
+                { "answer": "Austria", "correct": false, "comment": "" },
+                { "answer": "Taani", "correct": false, "comment": "" },
+                { "answer": "ÜK", "correct": false, "comment": "" }
+            ]
+        },
+        {
+            "question": "Ekvaatoril asuvad riigid",
+            "answers": [
+                { "answer": "Ecuador", "correct": true, "comment": "" },
+                { "answer": "Kolumbia", "correct": true, "comment": "" },
+                { "answer": "Uganda", "correct": true, "comment": "" },
+                { "answer": "Gabon", "correct": true, "comment": "" },
+                { "answer": "Kongo", "correct": true, "comment": "" },
+                { "answer": "Somaalia", "correct": true, "comment": "" },
+                { "answer": "Indoneesia", "correct": true, "comment": "" },
+                {
+                    "answer": "Kesk-Aafrika Vabariik",
+                    "correct": false,
+                    "comment": "jääb põhjapoole"
+                },
+                {
+                    "answer": "Venezuela",
+                    "correct": false,
+                    "comment": "jääb põhjapoole"
+                },
+                {
+                    "answer": "Paapua Uus-Guinea",
+                    "correct": false,
+                    "comment": "jääb lõunapoole"
+                }
+            ]
+        },
+        {
+            "question": "Brainrot",
+            "answers": [
+                {
+                    "answer": "Galvanized Square Steel",
+                    "correct": true,
+                    "comment": ""
+                },
+                { "answer": "Edge", "correct": true, "comment": "" },
+                { "answer": "Low taper fade", "correct": true, "comment": "" },
+                { "answer": "Cheugy", "correct": true, "comment": "" },
+                { "answer": "Glizzy", "correct": true, "comment": "" },
+                { "answer": "Goon", "correct": true, "comment": "" },
+                { "answer": "Shrekposting", "correct": true, "comment": "" },
+                { "answer": "Grunk", "correct": false, "comment": "" },
+                { "answer": "Wompchomp", "correct": false, "comment": "" },
+                { "answer": "Chungus effect", "correct": false, "comment": "" }
+            ]
+        },
+        {
+            "question": "Firmade sloganid",
+            "answers": [
+                {
+                    "answer": "Making cities for people, not cars.",
+                    "correct": true,
+                    "comment": "Bolt"
+                },
+                {
+                    "answer": "Hea aga odav",
+                    "correct": true,
+                    "comment": "Prisma"
+                },
+                { "answer": "Hea mõte", "correct": true, "comment": "Selver" },
+                {
+                    "answer": "Parem. Iga päevaga",
+                    "correct": true,
+                    "comment": "Rimi"
+                },
+                {
+                    "answer": "Elu on elamust väärt",
+                    "correct": true,
+                    "comment": "Elisa"
+                },
+                {
+                    "answer": "Pank keset elu",
+                    "correct": true,
+                    "comment": "Coop pank"
+                },
+                {
+                    "answer": "Uue ajastu pank",
+                    "correct": true,
+                    "comment": "InBank"
+                },
+                {
+                    "answer": "Parema tuleviku nimel",
+                    "correct": false,
+                    "comment": ""
+                },
+                {
+                    "answer": "Sinu unistuste heaks",
+                    "correct": false,
+                    "comment": ""
+                },
+                {
+                    "answer": "Kindel partner sinu teel",
+                    "correct": false,
+                    "comment": ""
+                }
+            ]
+        },
+        {
+            "question": "Monsteri maitsed",
+            "answers": [
+                { "answer": "Mango Loco", "correct": true, "comment": "" },
+                { "answer": "Pipeline Punch", "correct": true, "comment": "" },
+                { "answer": "Khaotic", "correct": true, "comment": "" },
+                { "answer": "Pacific Punch", "correct": true, "comment": "" },
+                { "answer": "Monarch", "correct": true, "comment": "" },
+                { "answer": "Mixxd", "correct": true, "comment": "" },
+                { "answer": "Aussie Lemonade", "correct": true, "comment": "" },
+                { "answer": "Solar Punch", "correct": false, "comment": "" },
+                { "answer": "Arctic Melon", "correct": false, "comment": "" },
+                { "answer": "Lunar Lime", "correct": false, "comment": "" }
+            ]
+        },
+        {
+            "question": "Inimese luud",
+            "answers": [
+                { "answer": "Rindluu", "correct": true, "comment": "Rindkere" },
+                { "answer": "Pindluu", "correct": true, "comment": "Jalg" },
+                { "answer": "Kiiruluu", "correct": true, "comment": "Kolju" },
+                { "answer": "Kuklaluu", "correct": true, "comment": "Kolju" },
+                { "answer": "Kodarluu", "correct": true, "comment": "Käsi" },
+                { "answer": "Lodiluu", "correct": true, "comment": "Ranne" },
+                { "answer": "Hernesluu", "correct": true, "comment": "Ranne" },
+                { "answer": "Ubaluu", "correct": false, "comment": "" },
+                { "answer": "Kantluu", "correct": false, "comment": "" },
+                { "answer": "Siseluu", "correct": false, "comment": "" }
+            ]
+        },
+        {
+            "question": "Squid game tegelased",
+            "answers": [
+                { "answer": "Seong Gi-hun", "correct": true, "comment": "456" },
+                { "answer": "Oh il-Nam", "correct": true, "comment": "001, S1, vanamees" },
+                { "answer": "Hwang In-ho", "correct": true, "comment": "001, S2, front man" },
+                { "answer": "Kim Jun-Hee", "correct": true, "comment": "222, rase" },
+                { "answer": "Park Yong-sik", "correct": true, "comment": "poeg (koos emaga)" },
+                { "answer": "Jang Geum-ja", "correct": true, "comment": "ema (koos pojaga)" },
+                { "answer": "Thanos", "correct": true, "comment": "räppar" },
+                { "answer": "Na Hee-do", "correct": false, "comment": "" },
+                { "answer": "Baek Yi-jin", "correct": false, "comment": "" },
+                { "answer": "Ko Yu-rim", "correct": false, "comment": "" }
+            ]
+        },
+        {
+            "question": "Lauamängud",
+            "answers": [
+                { "answer": "Wingspan", "correct": true, "comment": "" },
+                { "answer": "Carcassonne", "correct": true, "comment": "" },
+                { "answer": "Saboteur", "correct": true, "comment": "" },
+                { "answer": "Catan", "correct": true, "comment": "" },
+                { "answer": "Codenames", "correct": true, "comment": "" },
+                { "answer": "Pandemic", "correct": true, "comment": "" },
+                { "answer": "Helldivers", "correct": false, "comment": "Videomäng" },
+                { "answer": "Balatro", "correct": false, "comment": "Videomäng" },
+                { "answer": "Canasta", "correct": false, "comment": "Kaardimäng" }
+            ]
+        },
+        {
+            "question": "Laste multikad",
+            "answers": [
+                { "answer": "Kirbu-Krants", "correct": true, "comment": "" },
+                {
+                    "answer": "Yummy Yummy Monster Tummy",
+                    "correct": true,
+                    "comment": ""
+                },
+                { "answer": "Pingviin Jasper", "correct": true, "comment": "" },
+                { "answer": "Hei, Kutsa!", "correct": true, "comment": "" },
+                { "answer": "Ollie ja kuu", "correct": true, "comment": "" },
+                { "answer": "Väike nõid Zouk", "correct": true, "comment": "" },
+                { "answer": "Mups ja Tups", "correct": false, "comment": "" },
+                {
+                    "answer": "Säga-Sass ja jõe saladused",
+                    "correct": false,
+                    "comment": ""
+                },
+                {
+                    "answer": "Okkake ja Nõelake",
+                    "correct": false,
+                    "comment": ""
+                }
+            ]
+        },
+        {
+            "question": "Elulooraamatuga inimesed",
+            "answers": [
+                { "answer": "Mart Helme", "correct": true, "comment": "" },
+                { "answer": "Raivo Hein", "correct": true, "comment": "" },
+                { "answer": "Anett Kontaveit", "correct": true, "comment": "" },
+                { "answer": "Lea Dali Lion", "correct": true, "comment": "" },
+                {
+                    "answer": "Brigitte Susanne Hunt",
+                    "correct": true,
+                    "comment": ""
+                },
+                { "answer": "Ita Ever", "correct": true, "comment": "" },
+                { "answer": "Martin Helme", "correct": false, "comment": "" },
+                {
+                    "answer": "Andrus Kivirähk",
+                    "correct": false,
+                    "comment": ""
+                },
+                { "answer": "Anne Veski", "correct": false, "comment": "" }
+            ]
+        },
+        {
+            "question": "Hiljutised lastefilmid",
+            "answers": [
+                { "answer": "Hing", "correct": true, "comment": "Soul" },
+                { "answer": "Luca", "correct": true, "comment": "" },
+                { "answer": "Elementaarne", "correct": true, "comment": "Elemental" },
+                {
+                    "answer": "Punane pandaplika",
+                    "correct": true,
+                    "comment": "Turning red"
+                },
+                {
+                    "answer": "Raya ja viimane lohe",
+                    "correct": true,
+                    "comment": "Raya and the last dragon"
+                },
+                { "answer": "Edasi", "correct": true, "comment": "Onward" },
+                { "answer": "Rikkis Ron", "correct": true, "comment": "Ron's gone wrong" },
+                { "answer": "Ajalaev", "correct": false, "comment": "" },
+                {
+                    "answer": "Kadunud kuningriik",
+                    "correct": false,
+                    "comment": ""
+                },
+                { "answer": "Sookolli süda", "correct": false, "comment": "" }
             ]
         }
     ]
