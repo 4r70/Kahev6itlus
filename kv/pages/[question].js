@@ -149,6 +149,28 @@ export default function Question() {
     document.getElementById('pointsSwitchInput').checked = false;
   }
 
+  function handleKeyPress(event) {
+    const key = event.key;
+    if (key >= '1' && key <= '9') {
+      const index = parseInt(key) - 1;
+      if (!revealed[index]) {
+        showAnswer(shuffledAnswers[index], index);
+      }
+    } else if (key === '0') {
+      const index = 9;
+      if (!revealed[index]) {
+        showAnswer(shuffledAnswers[index], index);
+      }
+    }
+  }
+
+  useEffect(() => {
+    window.addEventListener('keydown', handleKeyPress);
+    return () => {
+      window.removeEventListener('keydown', handleKeyPress);
+    };
+  }, [revealed, shuffledAnswers]);
+
   return (
     <>
       <Head>
