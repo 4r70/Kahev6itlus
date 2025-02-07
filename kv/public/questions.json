@@ -3227,6 +3227,33 @@
                 },
                 { "answer": "Sookolli süda", "correct": false, "comment": "" }
             ]
+        },
+        {
+            "question": "Valuvaigistid",
+            "answers": [
+                { "answer": "Ibuprofeen", "correct": true, "comment": "" },
+                { "answer": "Paratsetamool", "correct": true, "comment": "" },
+                { "answer": "Aspiriin", "correct": true, "comment": "" },
+                {
+                    "answer": "Lidokaniin",
+                    "correct": true,
+                    "comment": ""
+                },
+                {
+                    "answer": "Kodeiin",
+                    "correct": true,
+                    "comment": ""
+                },
+                { "answer": "Morfiin", "correct": true, "comment": "" },
+                { "answer": "Ketoprofeen", "correct": true, "comment": "" },
+                { "answer": "Propranolool", "correct": false, "comment": "Südamele, beetablokaator" },
+                {
+                    "answer": "Fluoksetiin",
+                    "correct": false,
+                    "comment": "Antidepressant"
+                },
+                { "answer": "Bisakodüül", "correct": false, "comment": "Kõhulahtisti" }
+            ]
         }
     ]
 }
