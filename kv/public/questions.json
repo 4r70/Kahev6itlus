@@ -3254,6 +3254,292 @@
                 },
                 { "answer": "Bisakodüül", "correct": false, "comment": "Kõhulahtisti" }
             ]
+        },
+        {
+            "question": "Red Bulli maitsed",
+            "answers": [
+                { "answer": "Cola", "correct": true },
+                { "answer": "Grapefruit twist", "correct": true },
+                { "answer": "Sunny beam", "correct": true },
+                { "answer": "Fig apple", "correct": true },
+                { "answer": "Total zero cherry edition", "correct": true },
+                { "answer": "Easy lemon", "correct": true },
+                { "answer": "F1 edition", "correct": true },
+                { "answer": "Iced vanilla orange", "correct": false },
+                { "answer": "Muscat cinnamon", "correct": false },
+                { "answer": "Nascar edition", "correct": false }
+            ]
+        },
+        {
+            "question": "Colleen Hooveri raamatud",
+            "answers": [
+                { "answer": "Maybe someday", "correct": true },
+                { "answer": "Ugly love", "correct": true },
+                { "answer": "Without merit", "correct": true },
+                { "answer": "Never never", "correct": true },
+                { "answer": "Woman down", "correct": true },
+                { "answer": "Heart bones", "correct": true },
+                { "answer": "November 9", "correct": true },
+                { "answer": "Maybe never", "correct": false },
+                { "answer": "That girl", "correct": false },
+                { "answer": "Never ever", "correct": false }
+            ]
+        },
+        {
+            "question": "Majandusterminid eesti keeles",
+            "answers": [
+                { "answer": "Surutis", "correct": true },
+                { "answer": "Aažio", "correct": true },
+                { "answer": "Aleatoorne", "correct": true },
+                { "answer": "Kaveerima", "correct": true },
+                { "answer": "Kurtjee", "correct": true },
+                { "answer": "Pariteet", "correct": true },
+                { "answer": "Ofert", "correct": true },
+                { "answer": "Assigentaat", "correct": false },
+                { "answer": "Investiteerimine", "correct": false },
+                { "answer": "Krediidijoon", "correct": false }
+            ]
+        },
+        {
+            "question": "Loomad",
+            "answers": [
+                { "answer": "Aha ha", "correct": true },
+                { "answer": "Gorilla gorilla gorilla", "correct": true },
+                { "answer": "Turdus maximus", "correct": true },
+                { "answer": "Ittibittium", "correct": true },
+                { "answer": "Boops boops", "correct": true },
+                { "answer": "Mini mus", "correct": true },
+                { "answer": "Bubo bubo", "correct": true },
+                { "answer": "Bananapus maximus", "correct": false },
+                { "answer": "Capybarus bingochungus", "correct": false },
+                { "answer": "Spaghettisaurus raviolii", "correct": false }
+            ]
+        },
+        {
+            "question": "Needid",
+            "answers": [
+                { "answer": "Apadravya", "correct": true },
+                { "answer": "Frenum", "correct": true },
+                { "answer": "Printsess diana", "correct": true },
+                { "answer": "Fourchette", "correct": true },
+                { "answer": "Hafada", "correct": true },
+                { "answer": "Magic cross", "correct": true },
+                { "answer": "Lorum", "correct": true },
+                { "answer": "Queen victoria", "correct": false },
+                { "answer": "Prangling", "correct": false },
+                { "answer": "Truncus", "correct": false }
+            ]
+        },
+        {
+            "question": "Struktuurid inimkehas",
+            "answers": [
+                { "answer": "Waldeyeri maotänav", "correct": true },
+                { "answer": "Analis canalis", "correct": true },
+                { "answer": "Globuspallidus", "correct": true },
+                { "answer": "Plexus venosus vertebralis internus posterior", "correct": true },
+                { "answer": "Sulcus tendini musculi flexoris hallucis longi", "correct": true },
+                { "answer": "Tigu", "correct": true },
+                { "answer": "Corona mortis", "correct": true },
+                { "answer": "Ileujejunum", "correct": false },
+                { "answer": "13 sõrmiksool", "correct": false },
+                { "answer": "Nucleus spinalis nervi cranialis", "correct": false }
+            ]
+        },
+        {
+            "question": "Parasiidid",
+            "answers": [
+                { "answer": "Fasciola Hepatica", "correct": true },
+                { "answer": "Plasmodium vivax", "correct": true },
+                { "answer": "Plasmodium Falciparum", "correct": true },
+                { "answer": "Ixodes ricinus", "correct": true },
+                { "answer": "Ascaris lumbricoides", "correct": true },
+                { "answer": "Trypanosoma cruzi", "correct": true },
+                { "answer": "Pediculus humanus capitis", "correct": true },
+                { "answer": "Bifidobacterium bifidum", "correct": false },
+                { "answer": "Dimetrodon limbatus", "correct": false },
+                { "answer": "Chimera Anima", "correct": false }
+            ]
+        },
+        {
+            "question": "Arto vanemate lapsed",
+            "answers": [
+                { "answer": "Arto", "correct": true },
+                { "answer": "Aren", "correct": true },
+                { "answer": "Aron", "correct": true },
+                { "answer": "Maru Aksel", "correct": true },
+                { "answer": "Tuule Mari", "correct": true },
+                { "answer": "Karoliine", "correct": true },
+                { "answer": "Rahe Ann", "correct": true },
+                { "answer": "Kõu", "correct": false },
+                { "answer": "Sander", "correct": false },
+                { "answer": "Arp", "correct": false }
+            ]
+        },
+        {
+            "question": "Kroonika seksikaimad naised",
+            "answers": [
+                { "answer": "Anu Saagim", "correct": true },
+                { "answer": "Ines Karu", "correct": true },
+                { "answer": "Ithaka-Maria Harito", "correct": true },
+                { "answer": "Elektra", "correct": true },
+                { "answer": "Karin Laasmäe", "correct": true },
+                { "answer": "Maria Korolev", "correct": true },
+                { "answer": "Ülle Lightfeldt", "correct": true },
+                { "answer": "Alika", "correct": false },
+                { "answer": "Kadri Aadamson", "correct": false },
+                { "answer": "Helina Pähklimägi", "correct": false }
+            ]
+        },
+        {
+            "question": "Sõnad laulus \"Kaka Peer Puuks\"",
+            "answers": [
+                { "answer": "Kaka", "correct": true },
+                { "answer": "Noku", "correct": true },
+                { "answer": "Peer", "correct": true },
+                { "answer": "Puuks", "correct": true },
+                { "answer": "Pissi", "correct": true },
+                { "answer": "Teie", "correct": true },
+                { "answer": "Olete", "correct": true },
+                { "answer": "Sina", "correct": false },
+                { "answer": "Tussu", "correct": false },
+                { "answer": "Meie", "correct": false }
+            ]
+        },
+        {
+            "question": "6-7",
+            "answers": [
+                { "answer": "Maailmaimed", "correct": true },
+                { "answer": "Maailmajaod", "correct": true },
+                { "answer": "Aastaid arstiteaduses", "correct": true },
+                { "answer": "Madonna", "correct": true },
+                { "answer": "Surmapatud", "correct": true },
+                { "answer": "Süsiniku prootonid", "correct": true },
+                { "answer": "Keskmine peenise suurus tollides", "correct": true },
+                { "answer": "Koera nibud", "correct": false },
+                { "answer": "Maailmamered", "correct": false },
+                { "answer": "Alar Karis", "correct": false }
+            ]
+        },
+        {
+            "question": "Italian brainrot",
+            "answers": [
+                { "answer": "Tung tung tung sahur", "correct": true },
+                { "answer": "Trippi troppi", "correct": true },
+                { "answer": "Los Tralaleritos", "correct": true },
+                { "answer": "Lirili larila", "correct": true },
+                { "answer": "Boneca ambalabu", "correct": true },
+                { "answer": "Frigo camelo", "correct": true },
+                { "answer": "La vaca saturno saturnita", "correct": true },
+                { "answer": "Giovanni Mozzarellini", "correct": false },
+                { "answer": "Francesca Carbonara", "correct": false },
+                { "answer": "Tonio Spaghettone", "correct": false }
+            ]
+        },
+        {
+            "question": "Sünonüümid sõnale \"naine\" EESS järgi",
+            "answers": [
+                { "answer": "Auguga liha", "correct": true },
+                { "answer": "Lehm", "correct": true },
+                { "answer": "Kõbla", "correct": true },
+                { "answer": "Tutt", "correct": true },
+                { "answer": "Kõõm", "correct": true },
+                { "answer": "Hobune", "correct": true },
+                { "answer": "Kännuvahe", "correct": true },
+                { "answer": "Seelik", "correct": false },
+                { "answer": "Siidisall", "correct": false },
+                { "answer": "Pillaja", "correct": false }
+            ]
+        },
+        {
+            "question": "Roheline värv",
+            "answers": [
+                { "answer": "#097969", "correct": true },
+                { "answer": "#4F7942", "correct": true },
+                { "answer": "#008000", "correct": true },
+                { "answer": "#0FFF50", "correct": true },
+                { "answer": "#2E8B57", "correct": true },
+                { "answer": "#40826D", "correct": true },
+                { "answer": "#32CD32", "correct": true },
+                { "answer": "#00DAFF", "correct": false },
+                { "answer": "#FFA9E4", "correct": false },
+                { "answer": "#142188", "correct": false }
+            ]
+        },
+        {
+            "question": "Growtopia moderaatorid",
+            "answers": [
+                { "answer": "@Hamumu", "correct": true },
+                { "answer": "@Seth", "correct": true },
+                { "answer": "@Anarion", "correct": true },
+                { "answer": "@Sadilus", "correct": true },
+                { "answer": "@Kailyx", "correct": true },
+                { "answer": "@WindyPlay", "correct": true },
+                { "answer": "@HollowDragon", "correct": true },
+                { "answer": "@BenBarrage", "correct": false },
+                { "answer": "@M2ed", "correct": false },
+                { "answer": "@Wicker", "correct": false }
+            ]
+        },
+        {
+            "question": "Fortnite'i skinnid",
+            "answers": [
+                { "answer": "Kim Kardashian", "correct": true },
+                { "answer": "Homer Simpson", "correct": true },
+                { "answer": "Tung Tung Tung Sahur", "correct": true },
+                { "answer": "Mrs. Incredible", "correct": true },
+                { "answer": "Ballerina Capuchina", "correct": true },
+                { "answer": "Sabrina Carpenter", "correct": true },
+                { "answer": "Doja Cat", "correct": true },
+                { "answer": "Harry Potter", "correct": false },
+                { "answer": "Walter White", "correct": false },
+                { "answer": "Ronaldo", "correct": false }
+            ]
+        },
+        {
+            "question": "Eesti eurolaulud, mis on saanud finaali",
+            "answers": [
+                { "answer": "Everybody", "correct": true },
+                { "answer": "Rändajad", "correct": true },
+                { "answer": "Kuula", "correct": true },
+                { "answer": "Once in a lifetime", "correct": true },
+                { "answer": "Goodbye to yesterday", "correct": true },
+                { "answer": "La Forza", "correct": true },
+                { "answer": "Kaelakee hääl", "correct": true },
+                { "answer": "Verona", "correct": false },
+                { "answer": "What love is", "correct": false },
+                { "answer": "Leto svet", "correct": false }
+            ]
+        },
+        {
+            "question": "Reelsidega äpid",
+            "answers": [
+                { "answer": "Snapchat", "correct": true },
+                { "answer": "Instagram", "correct": true },
+                { "answer": "Reddit", "correct": true },
+                { "answer": "Spotify", "correct": true },
+                { "answer": "TikTok", "correct": true },
+                { "answer": "Youtube", "correct": true },
+                { "answer": "Netflix", "correct": true },
+                { "answer": "ChatGPT", "correct": false },
+                { "answer": "Threads", "correct": false },
+                { "answer": "Discord", "correct": false }
+            ]
+        },
+        {
+            "question": "Sekspoosid",
+            "answers": [
+                { "answer": "Triceratops", "correct": true },
+                { "answer": "Clapper", "correct": true },
+                { "answer": "Need for speed", "correct": true },
+                { "answer": "Pie in the sky", "correct": true },
+                { "answer": "Piledriver", "correct": true },
+                { "answer": "Full Nelson", "correct": true },
+                { "answer": "G-Force", "correct": true },
+                { "answer": "Cowboy", "correct": false },
+                { "answer": "Thread the needle", "correct": false },
+                { "answer": "Sewing Machine", "correct": false }
+            ]
         }
     ]
 }
+    
