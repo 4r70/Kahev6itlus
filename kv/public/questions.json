@@ -3286,21 +3286,6 @@
             ]
         },
         {
-            "question": "Loomad",
-            "answers": [
-                { "answer": "Aha ha", "correct": true },
-                { "answer": "Gorilla gorilla gorilla", "correct": true },
-                { "answer": "Turdus maximus", "correct": true },
-                { "answer": "Ittibittium", "correct": true },
-                { "answer": "Boops boops", "correct": true },
-                { "answer": "Mini mus", "correct": true },
-                { "answer": "Bubo bubo", "correct": true },
-                { "answer": "Bananapus maximus", "correct": false },
-                { "answer": "Capybarus bingochungus", "correct": false },
-                { "answer": "Spaghettisaurus raviolii", "correct": false }
-            ]
-        },
-        {
             "question": "Needid",
             "answers": [
                 { "answer": "Apadravya", "correct": true },
