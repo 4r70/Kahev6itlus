@@ -2956,21 +2956,6 @@
             ]
         },
         {
-            "question": "Emade nimed (07.02)",
-            "answers": [
-                { "answer": "Sirli", "correct": true, "comment": "" },
-                { "answer": "Kai-Epp", "correct": true, "comment": "" },
-                { "answer": "Berit", "correct": true, "comment": "" },
-                { "answer": "Anne", "correct": true, "comment": "" },
-                { "answer": "Thea", "correct": true, "comment": "" },
-                { "answer": "Annely", "correct": true, "comment": "" },
-                { "answer": "Heli", "correct": true, "comment": "" },
-                { "answer": "Anna", "correct": false, "comment": "" },
-                { "answer": "Annika", "correct": false, "comment": "" },
-                { "answer": "Merit", "correct": false, "comment": "" }
-            ]
-        },
-        {
             "question": "Prantsusmaaga maismaapiiri jagavad riigid",
             "answers": [
                 {
@@ -3361,36 +3346,6 @@
             ]
         },
         {
-            "question": "Arto vanemate lapsed",
-            "answers": [
-                { "answer": "Arto", "correct": true },
-                { "answer": "Aren", "correct": true },
-                { "answer": "Aron", "correct": true },
-                { "answer": "Maru Aksel", "correct": true },
-                { "answer": "Tuule Mari", "correct": true },
-                { "answer": "Karoliine", "correct": true },
-                { "answer": "Rahe Ann", "correct": true },
-                { "answer": "Kõu", "correct": false },
-                { "answer": "Sander", "correct": false },
-                { "answer": "Arp", "correct": false }
-            ]
-        },
-        {
-            "question": "Kroonika seksikaimad naised",
-            "answers": [
-                { "answer": "Anu Saagim", "correct": true },
-                { "answer": "Ines Karu", "correct": true },
-                { "answer": "Ithaka-Maria Harito", "correct": true },
-                { "answer": "Elektra", "correct": true },
-                { "answer": "Karin Laasmäe", "correct": true },
-                { "answer": "Maria Korolev", "correct": true },
-                { "answer": "Ülle Lightfeldt", "correct": true },
-                { "answer": "Alika", "correct": false },
-                { "answer": "Kadri Aadamson", "correct": false },
-                { "answer": "Helina Pähklimägi", "correct": false }
-            ]
-        },
-        {
             "question": "Sõnad laulus \"Kaka Peer Puuks\"",
             "answers": [
                 { "answer": "Kaka", "correct": true },
@@ -3416,7 +3371,7 @@
                 { "answer": "Süsiniku prootonid", "correct": true },
                 { "answer": "Keskmine peenise suurus tollides", "correct": true },
                 { "answer": "Koera nibud", "correct": false },
-                { "answer": "Maailmamered", "correct": false },
+                { "answer": "Ookeanid", "correct": false },
                 { "answer": "Alar Karis", "correct": false }
             ]
         },
